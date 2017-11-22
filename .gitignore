@@ -4,6 +4,9 @@
 *.out
 *.zip
 
+# Vim files
+*.swp
+
 # Pasta desnecessárias
 ref
 img

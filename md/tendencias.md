@@ -80,7 +80,7 @@ Plugin para desenvolvimento web - Bourbon.io
 ### DuckDuckGo
 ![alt](../images/tendencias/ddg.png)
 Buscador web - DuckDudckGo
-* Poucos elementos, bastante espaço 
+* Poucos elementos, bastante espaço
 * CTA centralizado
 * Conteúdo centralizado
 * CTA para navegação vertical
@@ -91,6 +91,18 @@ Buscador web - DuckDudckGo
 Site com tutoriais e dicas para desenvolvimento web - Travis Neilson
 * Layout centralizado
 * Poucos elementos, bastante espaço
-* Menu no canto superior 
+* Menu no canto superior
 * Layout descentralizado
 * Cor destaque
+
+### Análise geral
+* Estética
+	* Valorizar imagens, principalmente na busca.
+	* Margens e espaços vazios ajudam a encontarr a informação de forma direta
+	* Paleta com cinzas a uma cor-destaque
+	* Uma frase simples e direta que explique o que é o site.
+	* Página em 'blocos' com CTA para navegação vertical
+* Navegabilidade
+  * cards horizontais ajudam a mostrar mais informações textuais e não sobrecarregar a páginas
+  * Manter um menu simples no topo que permita acessar diversas áreas do site a partir de qualquer página
+  * Poucos elementos e destaque para CTAs
