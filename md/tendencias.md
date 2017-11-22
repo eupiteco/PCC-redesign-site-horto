@@ -6,14 +6,14 @@
 
 _Busca do behance, designer ou coontratante?_
 
-###Buscas
+### Buscas
 
 ### Behance
 ![alt](../images/tendencias/behance.png)
 Site de portifolios online para artes e design - Adobe
 * Menu pequeno no topo
 * h1
-* * Conteúdo centralizado
+* Conteúdo centralizado
 * grade com cards valorizando as imagens
 
 ### Dribbble
@@ -21,7 +21,7 @@ Site de portifolios online para artes e design - Adobe
 Site para mostrar processos de artes e design - Dribbble
 * Menu pequeno no topo
 * h1 com CTA
-* * Conteúdo centralizado
+* Conteúdo centralizado
 * CTAs para públicos diferentes (What are you working on/Looking to hire a designer)
 * Grade com cards valorizando as imagens
 
@@ -34,7 +34,7 @@ Página de busca por vídeos no youtube - Google
 * Destaque para as imagens da busca
 * Conteúdo descentralizado
 
-###Index
+### Index
 
 ### Gmail
 ![alt](../images/tendencias/gmail.png)
@@ -58,7 +58,7 @@ Central de infomrações, referências e tutoriais para desenvolvedores _web_ - 
 * CTAs para públicos diferentes
 
 ### Travis Neilson
-![alt](../images/tendencias/travis1.png)
+![alt](../images/tendencias/travis.png)
 ![alt](../images/tendencias/travis2.png)
 Página pessoal de desenvolvedor web da Google
 * Poucos elementos e bastante espaço
@@ -69,7 +69,7 @@ Página pessoal de desenvolvedor web da Google
 * Destaque com cores
 * Conteúdo descentralizado
 
-###Bourbon
+### Bourbon
 ![alt](../images/tendencias/bourbon.png)
 Plugin para desenvolvimento web - Bourbon.io
 * Menu pequeno no topo
@@ -77,7 +77,7 @@ Plugin para desenvolvimento web - Bourbon.io
 * h1
 * Conteúdo centralizado
 
-###DuckDuckGo
+### DuckDuckGo
 ![alt](../images/tendencias/ddg.png)
 Buscador web - DuckDudckGo
 * Poucos elementos, bastante espaço 
@@ -86,7 +86,7 @@ Buscador web - DuckDudckGo
 * CTA para navegação vertical
 * Menu interativo no canto superior
 
-###DevTips
+### DevTips
 ![alt](../images/tendencias/devtips.png)
 Site com tutoriais e dicas para desenvolvimento web - Travis Neilson
 * Layout centralizado
