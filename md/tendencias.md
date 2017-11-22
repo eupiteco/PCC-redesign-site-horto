@@ -78,7 +78,7 @@ Plugin para desenvolvimento web - Bourbon.io
 * Conteúdo centralizado
 
 ### DuckDuckGo
-![alt](../images/tendencias/ddg.png)
+![alt](../images/tendencias/ddgo.png)
 Buscador web - DuckDudckGo
 * Poucos elementos, bastante espaço 
 * CTA centralizado
