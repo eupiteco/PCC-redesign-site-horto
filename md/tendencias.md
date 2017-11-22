@@ -8,7 +8,8 @@ _Busca do behance, designer ou coontratante?_
 
 ###Buscas
 
-### Behancee
+### Behance
+![alt](../images/tendencias/behance.png)
 Site de portifolios online para artes e design - Adobe
 * Menu pequeno no topo
 * h1
@@ -16,6 +17,7 @@ Site de portifolios online para artes e design - Adobe
 * grade com cards valorizando as imagens
 
 ### Dribbble
+![alt](../images/tendencias/dribbble.png)
 Site para mostrar processos de artes e design - Dribbble
 * Menu pequeno no topo
 * h1 com CTA
@@ -24,6 +26,7 @@ Site para mostrar processos de artes e design - Dribbble
 * Grade com cards valorizando as imagens
 
 ### Youtube - busca
+![alt](../images/tendencias/yt-busca.png)
 Página de busca por vídeos no youtube - Google
 * Menu simples no topo
 * Menu lateral com ações do usuário
@@ -34,6 +37,7 @@ Página de busca por vídeos no youtube - Google
 ###Index
 
 ### Gmail
+![alt](../images/tendencias/gmail.png)
 Serviço de email - Google
 * Composição com imagem de fundo
 * Espaço, poucos elementos interativos
@@ -44,6 +48,7 @@ Serviço de email - Google
 * Destaque com cores
 
 ### MDN
+![alt](../images/tendencias/mdn.png)
 Central de infomrações, referências e tutoriais para desenvolvedores _web_ - Mozilla
 * Imagem de fundo
 * CTA centralizado (busca)
@@ -53,6 +58,8 @@ Central de infomrações, referências e tutoriais para desenvolvedores _web_ - 
 * CTAs para públicos diferentes
 
 ### Travis Neilson
+![alt](../images/tendencias/travis1.png)
+![alt](../images/tendencias/travis2.png)
 Página pessoal de desenvolvedor web da Google
 * Poucos elementos e bastante espaço
 * Tridimensionalidade
@@ -63,6 +70,7 @@ Página pessoal de desenvolvedor web da Google
 * Conteúdo descentralizado
 
 ###Bourbon
+![alt](../images/tendencias/bourbon.png)
 Plugin para desenvolvimento web - Bourbon.io
 * Menu pequeno no topo
 * Poucos elementos, bastante espaço
@@ -70,6 +78,7 @@ Plugin para desenvolvimento web - Bourbon.io
 * Conteúdo centralizado
 
 ###DuckDuckGo
+![alt](../images/tendencias/ddg.png)
 Buscador web - DuckDudckGo
 * Poucos elementos, bastante espaço 
 * CTA centralizado
@@ -78,6 +87,7 @@ Buscador web - DuckDudckGo
 * Menu interativo no canto superior
 
 ###DevTips
+![alt](../images/tendencias/devtips.png)
 Site com tutoriais e dicas para desenvolvimento web - Travis Neilson
 * Layout centralizado
 * Poucos elementos, bastante espaço
