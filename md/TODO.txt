@@ -1,0 +1,38 @@
+
+#################
+
+Delimitações
+
+* Versão desktop apenas (Maior que 768 pixels de largura)
+
+* Não será pensada acessibilidade completa (WCAGS)
+
+* Preferência para uso de soft. Livre > soft. Códtrigo aberto > soft. Proprietário
+
+* Plataforma (WP?) como limitante do layout
+
+##################################
+
+1 - [http://www.mda.gov.br/ mda/sites/sitemda/files/user_arquivos_64/Programa_Nacional_de_Plantas_Medicinais_e_Fitoterápicos..pdf](http://www.mda.gov.br/sitemda/sites/sitemda/files/user_arquivos_64/Programa_Nacional_de_Plantas_Medicinais_e_Fitoterápicos..pdf) - Programa nacional de Plantas medicinais e Fitoterapicos - acesso em 14/08/2017
+
+2 - [http://bvsms.saude.gov.br/bvs/publicacoes/pnpic.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/pnpic.pdf) - Política Nacional de Práticas Integrativas e Complementares no SUS - PNPIC-SUS /
+Ministério da Saúde, Secretaria de Atenção à Saúde, Departamento de Atenção Básica. - Brasília :
+Ministério da Saúde, 2006.
+
+3 - [http://www.pmf.sc.gov.br/entidades/saude/index.php?cms=praticas+integrativas+e+complementares&menu=5](http://www.pmf.sc.gov.br/entidades/saude/index.php?cms=praticas+integrativas+e+complementares&menu=5) - Criação da CPIC floripa - acesso em 14/08/2017
+
+4 - [https://www.gnu.org/philosophy/free-sw.pt-br.html](https://www.gnu.org/philosophy/free-sw.pt-br.html) O que é software livre? - Projeto GNU - acesso em 29/08/2017
+
+5 - [https://www.fsf.org/about/what-is-free-software](https://www.fsf.org/about/what-is-free-software) What is free Software - FSF - acesso em 29/08/2017
+
+6 - GARRET, J.J. The elements of user experience. Indianapolis: New Riders, 2002
+
+[https://nccih.nih.gov/health/acai/ataglance.htm](https://nccih.nih.gov/health/acai/ataglance.htm) - print das perguntas açaí
+
+[https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera](https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera) - Sloan Kettering
+
+HOLMGREN, David. Permacultura: princípios e caminhos para além da sustentabilidade. Porto Alegre: Via Sapiens, 2013.
+
+# Apêndice A
+
+Questionário e tabela cos resultados

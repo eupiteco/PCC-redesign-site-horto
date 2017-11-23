@@ -1,117 +1,3 @@
-# Introdução
-
-## Apresentação do tema
-
-O uso de plantas como tratamento medicinal é uma prática comum e muito antiga no Brasil, onde uma grande parte da população as utilizam ou como opção única de tratamento ou em associação com medicamentos sintéticos.  Mesmo assim pouco ou nada se fala a respeito disso nos meios acadêmicos e/ou profissionais da área da saúde. O Horto Didático de Plantas Medicinais da UFSC (neste trabalho referido como Horto Medicinal) foi criado junto ao Hospital Universitário, em 1999, com a proposta de ser um espaço aberto à comunidade interessada no estudo, formação e informação sobre o uso das plantas pela população e também de servir como laboratório e espaço didático para o ensino e a pesquisa sobre plantas medicinais dentro da UFSC. O Horto Medicinal está pautado em diversas políticas e programas que regulamentam e incentivam o uso de plantas medicinais e fitoterápicos como opção de tratamento tais como: o Programa Nacional de Plantas Medicinais e Fitoterápicos[1]; a Política Nacional de Práticas Integrativas e Complementares no SUS[2]; a Comissão de Práticas Integrativas e Complementares da secretaria municipal de saúde de Florianópolis[3]. Como forma de divulgar o conhecimento produzido, o Horto Medicinal possui um *website* ([https://hortomedicinaldohu.ufsc.br/](https://hortomedicinaldohu.ufsc.br/)) com informações sobre o Horto e sobre plantas medicinais.
-
-![image alt text](../images/drive/image_0.png)
-
-*Site atual do Horto Medicinal*
-
-*Arquivo do autor*
-
-No website é possível acessar uma base de dados com informações sobre uso popular, ações farmacológicas, contra indicações, interações medicamentosas, reações adversas, fotos e nomes populares diversos de cada planta. Atualmente esta base de dados conta com 220 plantas. No entanto, a formatação do website não é adequada à leitura, tornando-se uma barreira no acesso à informação. Esta inadequação é decorrente, principalmente, da falta de manutenção da estrutura da página que, desde a sua criação, não foi atualizada em relação a novas tecnologias de desenvolvimento web que surgiram neste período.
-
-A *web* é uma mídia extremamente dinâmica. Primeiro porque está em um processo constante e intenso de transformação devido à grande participação dos usuários na sua construção; segundo porque há uma grande diversidade de suportes para a sua visualização: computadores, Tvs, celulares, *tablets *etc. Assim, conteúdos que estão dispostos na rede precisam ser constantemente reformados para que se adequem  às novas técnicas, suportes e públicos que surgem o tempo todo. Estudar mídias e organizar informações nela é uma prática de design gráfico.
-
-Portanto, o design gráfico pode ser aplicado no contexto do Horto Medicinal na organização da informação disponibilizada pelo Horto. Esta organização pode tomar a forma de uma cartilha ou guia impresso, uma campanha de cartazes de propaganda, um portfólio impresso ou digital, entre outras. Dentre estas possibilidades, a alternativa vista como mais viável é a construção de um novo *website*. A escolha se justifica principalmente pela necessidade de constante atualização do conteúdo, revisões bibliográficas e novas pesquisas ocorrem constantemente e estas informações precisam ser atualizadas. O meio digital oferece esta possibilidade de atualização com mais agilidade e menos trabalho em relação às outras alternativas. Também é possível citar a relação custo/benefício desta escolha; por tratar-se de mídia digital, não há custos com a produção ou impressão do material. Por fim, há o alcance do material para além das barreiras físicas, podendo ser acessado em qualquer lugar e ponto do mundo com acesso à internet.
-
-Tendo em vista o Horto Medicinal como um serviço de interesse público, acadêmico e popular, apoiado por iniciativas nacionais e municipais; a existência de uma base de dados extensa em constante atualização; e a organização dessa informação em meio digital como alternativa mais adequada e viável, o projeto busca responder a seguinte pergunta: como organizar e apresentar, de forma adequada e acessível ao público, as informações contidas no *website* do Horto Medicinal?
-
-## Objetivos
-
-### Objetivo geral
-
-Desenvolver a estrutura, *layout*, e *styleguide* de um *website* para organizar as informações do Horto Medicinal.
-
-### Objetivos específicos
-
-* Mapear o conteúdo que será veiculado no site.
-
-* Identificar o público-alvo.
-
-* Descrever alternativas similares de sites.
-
-* Pesquisar alternativas em software livre.
-
-* Adequar a tipografia e demais elementos gráficos à identidade visual do Horto medicinal e ao público alvo.
-
-* Documentar as soluções gráficas e estruturais em um *styleguide*.
-
-## Justificativa
-
-Desde o início da do período de graduação, o autor esteve interessado pela atuação que o designer pode ter junto a ações de preservação, proteção e educação ambiental. Por isso trabalhou com grupos da UFSC e de fora que realizam estudos sobre temas como a permacultura, a agroecologia e plantas alimentícias e medicinais da agrobiodiversidade.
-
-Dentro da UFSC, o autor cursou a disciplina optativa Introdução à Permacultura (GCN7938). HOLMGREN(2013, p. 33) define a permacultura como o uso do pensamento sistêmico e de princípios de design para o planejamento de paisagens produtivas a partir de padrões e relações encontradas na natureza, ou seja, uma ciência que une design, produção de recursos renováveis e preservação ambiental. Após a disciplina, o autor passou a atuar como voluntário no Núcleo de Estudos em Permacultura (NEPerma) para cumprir a disciplina de estágio obrigatório. O trabalho foi  vinculado ao projeto de Recuperação Ambiental do Bosque do CFH em que desenvolveu-se uma cartilha digital sobre o projeto e placas informativas para o espaço do bosque.
-
-![image alt text](../images/drive/image_1.jpg)![image alt text](../images/drive/image_2.jpg)
-
-*Placas no bosque da UFSC projetadas durante estágio obrigatório. *
-
-*Fonte: arquivo do autor*
-
-![image alt text](../images/drive/image_3.png)![image alt text](../images/drive/image_4.png)
-
-*Spreads de material informativo desenvolvido durante estágio obrigatório.*
-
-*Fonte: arquivo do autor*
-
-No ano seguinte (2017) o autor participou na escrita de um projeto de extensão, no qual atuou como bolsista, para auxiliar com a comunicação de projetos de extensão ambiental. Os projetos escolhidos foram o Núcleo de Educação Ambiental da UFSC (NEAmb) e o Horto Medicinal, para os quais foram criadas identidades visuais. A construção do novo site do Horto Medicinal será uma das aplicações desta identidade é uma forma de ampliar a sua comunicação.
-
-![image alt text](../images/drive/image_5.png)
-
-*Logotipo da identidade visual desenvolvida durante o projeto de extensão.*
-
-*Fonte: arquivo do autor*
-
-Além de ser uma forma de concretizar os estudos e práticas realizadas pelo autor durante a graduação, o projeto é de interesse para futuras pesquisas e práticas pois visa integrar e atender as necessidades de públicos com necessidades distintas: profissionais da área da saúde,  pessoas leigas no assunto buscando auto-tratamento ou informações adicionais sobre um tratamento prescrito e também pesquisadores de diversas áreas com interesse em plantas medicinais.
-
-Também vale ressaltar que para este projeto serão avaliados e utilizados sempre que possível *softwares* livres em detrimento dos proprietários. De acordo com a* Free Software Foundation*[4], para ser livre o software precisa atender a quatro liberdades:
-
-* *A liberdade de executar o programa como você desejar, para qualquer propósito (liberdade 0).*
-
-* *A liberdade de estudar como o programa funciona, e adaptá-lo às suas necessidades (liberdade 1). Para tanto, acesso ao código-fonte é um pré-requisito.*
-
-* *A liberdade de redistribuir cópias de modo que você possa ajudar a**o próximo (liberdade 2).*
-
-* *A liberdade de distribuir cópias de suas versões modificadas a outros (liberdade 3). *
-
-A mesma fundação também afirma que "*Usar *software* livre é tomar uma decisão política e ética que garante o direito de aprender e compartilhar com outras pessoas o que é aprendido. *Software* livre tornou-se a fundação de uma sociedade de aprendizado em que o conhecimento é compartilhado de forma que outros possam criar a partir deste conhecimento e aproveitar-se dos benefícios*." [5]
-
-A partir desta perspectiva, pode-se entender o software livre como ideal para a atividade de pesquisa, pois facilita àqueles que queiram reproduzir a metodologia deste projeto o acesso a esses softwares, porque indivíduos e grupos interessados em desenvolvimento e/ou adaptação dos *softwares* podem encontrar na pesquisa uma documentação precisa e detalhada do seu uso em projetos de design e porque os resultados da avaliação dos softwares quanto a sua adequação a atividade projetual poderão ser enviados diretamente aos desenvolvedores para implementar as alterações cabíveis em futuras versões dos programas.
-
-Outra contribuição deste trabalho à pesquisa acadêmica é a descrição das soluções encontradas na adequação ao meio digital de uma base de dados imagética e textual sobre plantas medicinais, que poderá servir como fundamento para trabalhos semelhantes. A organização de um site sobre plantas medicinais também se apoia em uma perspectiva social. Ele facilita o acesso à informação sobre plantas medicinais através da internet, um meio de grande alcance em relação às mídias físicas, a profissionais que atendam pessoas fazendo uso de plantas ou que desejem receitar plantas como forma de tratamento; também para que pessoas sem acesso a medicamentos industrializados possam fazer uso seguro e informado de plantas medicinais.
-
-A ampliação do acesso à informação sobre plantas medicinais pode ser explicada como uma extensão do alcance de serviços públicos e gratuitos. O Horto Medicinal enquanto espaço aberto à sociedade ganhará visibilidade dentro e fora da UFSC. Também irá estender a abrangência  de programas nacionais e municipais de práticas integrativas e uso de plantas nos órgãos públicos de saúde.
-
-## Metodologia
-
-Tratando-se este de um projeto que busca uma solução em meio digital, será utilizada a metodologia proposta por Jesse James Garrett em seu livro *"The Elements of User Experience" *(2002)[6].
-
-Garret (2002) ressalta, para além das questões funcionais e estética, a importância da experiência de usuário no desenvolvimento do projeto. Ao projetar para o meio digital, esta importância ganha mais peso por tratar-se de um meio de alta complexidade e que não tem um manual de instruções. O uso acontece baseado apenas em experiências anteriores do usuário.
-
-Um *website* com projeto centrado no usuário é fundamental para garantir que as informações e funcionalidades sejam apresentadas de de forma que os usuários possam compreendê-las com facilidade.
-
-Em Garret (2002) o autor propõe uma metodologia que divide o projeto em cinco etapas ou planos centrados na experiência de usuário. Estes planos se sobrepõem de forma que o mais abstrato fique em baixo e o mais concreto em cima, conforme demonstrado na figura 7.
-
-![image alt text](../images/drive/image_6.jpg)
-
-*strutura metodológica proposta por Garrett. *
-
-*Adaptado de Garret(2002)*
-
-Com esta organização sequencial, o autor reforça a dependência de planos superiores aos inferiores. Por exemplo: o plano de esqueleto não pode ser dado por terminado enquanto os planos de estratégia, escopo e estrutura não estiverem definidos e finalizados. Também é importante ressaltar, conforme descrito na página 24, que a atividade em cada plano não é exclusiva e que decisões em uma etapa podem afetar tanto as etapas de coma quanto as de baixo, o importante é que elas sejam *finalizadas* de baixo para cima.
-
-No projeto do site do Horto medicinal aqui proposto, o **plano de estratégia**, composto pelas necessidades do usuário e objetivos do produto, consistirá da criação de um *briefing* a partir da introdução do projeto, a construção de personas e suas respectivas jornadas de usuário a partir de entrevistas com o público-alvo e da análise de soluções estéticas e funcionais já existentes em site similares.
-
-Para o **plano de escopo**, será feito o levantamento e organização de todo o conteúdo a ser veiculado no site e será realizada a listagem das funcionalidades, páginas e seções necessárias à veiculação do conteúdo.
-
-No **plano da estrutura**, será criado o mapa do site a partir da relação de navegação das páginas e funcionalidades, quais as possibilidades de transitar no site de uma página a outra criando um mapa do site. Também será descrita a interação usuário-produto, como o site responde às ações realizadas pelo usuário.
-
-O **esqueleto** será composto por protótipos de baixa fidelidade que possam ser utilizados em testes com usuários para saber qual a melhor disposição e organização dos elementos funcionais na tela.
-
-A camada de **superfície** levará em conta os aspectos estéticos dos elementos dispostos no esqueleto. Nesta etapa serão feito todos os ajustes e acabamentos necessários a partir da identidade visual do Horto Medicinal e da análise de soluções similares.
-
 # Plano de estratégia
 
 No plano de estratégia serão registrados os objetivos do usuário e as necessidades dos usuários, levantando qual a forma de projetar o site e para quem ele será projetado. Isso se dará através de cinco etapas:
@@ -128,7 +14,7 @@ No plano de estratégia serão registrados os objetivos do usuário e as necessi
 
 ## Briefing
 
-O *briefing* é uma ferramenta que descreve as condições e necessidades iniciais de um projeto. Segundo Pazmino (2015, p. 22) não existe um formato ou modelo ideal pré-determinado para o *briefing*, ele deve sintetizar e expressar as características de projeto da melhor forma possível. Para o site do Horto do HU, o *briefing* será dividido em quatro seções principais: **Objetivos do site**, em que será definida sua principal função e como ela se relaciona com os diferentes públicos-alvo; a partir dos objetivos serão descritas as **Funções pretendidas** para que se cumpram os objetivos; o **Portfólio atual** irá reunir peças de comunicação já existentes do Horto do HU para uma análise da linguagem visual utilizada; por fim, no **_Benchmarking_** será feita uma análise de sites indicados pelos administradores do Horto do HU para um melhor entendimento de quais funções são necessárias.
+O _briefing_ é uma ferramenta que descreve as condições e necessidades iniciais de um projeto. Segundo Pazmino (2015, p. 22) não existe um formato ou modelo ideal pré-determinado para o _briefing_, ele deve sintetizar e expressar as características de projeto da melhor forma possível. Para o site do Horto do HU, o _briefing_ será dividido em quatro seções principais: **Objetivos do site**, em que será definida sua principal função e como ela se relaciona com os diferentes públicos-alvo; a partir dos objetivos serão descritas as **Funções pretendidas** para que se cumpram os objetivos; o **Portfólio atual** irá reunir peças de comunicação já existentes do Horto do HU para uma análise da linguagem visual utilizada; por fim, no **_Benchmarking_** será feita uma análise de sites indicados pelos administradores do Horto do HU para um melhor entendimento de quais funções são necessárias.
 
 O briefing aqui apresentado foi aplicado no dia… com a prof… e o prof….  No formato de entrevista semiestruturada. A síntese do material coletado é apresentada nos itens subsequentes.
 
@@ -136,9 +22,9 @@ O briefing aqui apresentado foi aplicado no dia… com a prof… e o prof….  N
 
 O principal objetivo do site é servir como um banco de informações acessíveis e confiáveis sobre o uso seguro de plantas medicinais para três públicos principais com necessidades distintas, listadas a seguir por ordem de importância.
 
-a) **Público leigo****.** Pessoas leigas na área da saúde e do uso de plantas. Fazem uso pontual e rápido do site a partir de um sintoma ou enfermidade específicos. Não têm interesse em aprofundar conhecimentos ou realizar estudos mais demorados no site. Necessitam de informações precisas e seguras para que possam fazer o uso correto das plantas medicinais.
+a) **Público leigo.** Pessoas leigas na área da saúde e do uso de plantas. Fazem uso pontual e rápido do site a partir de um sintoma ou enfermidade específicos. Não têm interesse em aprofundar conhecimentos ou realizar estudos mais demorados no site. Necessitam de informações precisas e seguras para que possam fazer o uso correto das plantas medicinais.
 
-b) **Profissionais da saúde. **Médicos, enfermeiros, farmacêuticos, dentistas e demais profissionais da área da saúde. Uso do site ligado à atividade profissional, tanto para entender uma planta usada por um paciente quanto para poder indicar plantas como tratamento ou parte dele. Necessitam de boas descrições e imagens para poder fazer a identificação e a receita das plantas assim como informações técnicas referentes à posologia, interações medicamentosas e efeitos adversos. Também atuam como pesquisadores, buscando por informações confiáveis e referenciadas e podendo indicar novas referências para o *site*.
+b) **Profissionais da saúde.** Médicos, enfermeiros, farmacêuticos, dentistas e demais profissionais da área da saúde. Uso do site ligado à atividade profissional, tanto para entender uma planta usada por um paciente quanto para poder indicar plantas como tratamento ou parte dele. Necessitam de boas descrições e imagens para poder fazer a identificação e a receita das plantas assim como informações técnicas referentes à posologia, interações medicamentosas e efeitos adversos. Também atuam como pesquisadores, buscando por informações confiáveis e referenciadas e podendo indicar novas referências para o _site_.
 
 É necessário o entendimento de que não são públicos isolados ou sem relações entre si. Profissionais da saúde(b) podem fazer uso do site a partir de uma demanda profissional originada por um paciente leigo(a). O contrário também pode acontecer: uma pessoa leiga(a) utilizar o site por indicação após uma consulta com um profissional da saúde(b).
 
@@ -166,31 +52,28 @@ Face horto - 30-09-2017
 
 ### Benchmarking
 
-#### National Center for Complementary and Integrative Health
+Durante a entrevista, foram indicados dois sites como referência de conteúdo e formatação eles serão brevemente apresentados aqui e analisados em maior profundidade na sessão XX Análise de similares.
 
-![image alt text](../images/drive/image_10.png)
+* **National Center for Complementary and Integrative Health (NCCIH)** - NCCIH é um departamento do governo estadunidense responsável por pesquiesas científicas na área de práticas integrativas complementares. Possui uma sessão sobre plantas medicinais com basatntes informações para pesquisadores da área.
+* **Memorial Sloan Kettering Cancer Center (MSKCC)** - O MSKCC era originalmente o Hospital de Câncer de Nova Iorque, fundado em 1884. No seu site há uma sessão sobre uso de plantas medicinais com informações completas.
 
+[image alt text](../images/drive/image_10.png)
 [https://nccih.nih.gov/health/acai/ataglance.htm](https://nccih.nih.gov/health/acai/ataglance.htm) - 30-09-2017
 
-Este site foi indicado pela organização textual das informações através de perguntas. Esta forma prevê questionamentos que o usuário pode ter ao acessar o site e organiza os dados sobre a planta na forma de tópicos que respondam a estas perguntas. As perguntas respondem a dúvidas que podem surgir de diversos públicos, "What do we know about safety?" (O que sabemos sobre segurança) é bastante útil tanto ao público leigo quanto a profissionais da saúde indicando plantas para seus pacientes; "How much do we know?" (O quanto sabemos?) auxilia pesquisadores a entender o que já existe em termos de pesquisa e em quais campos são necessários novos trabalhos, também auxilia profissionais a entender o quão embasadas e aprofundadas são as pesquisas sobre a planta pesquisada.
-
-#### Memorial Sloan Kettering Cancer Center
-
-![image alt text](../images/drive/image_11.png)[https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera](https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera) - 30-09-2017
-
-Nesta página a informação está separada em duas seções principais, pacientes e profissionais; em cada seção há tópicos que podem ser expandidos. Isto facilita o processo de encontrar a informação desejada, pois elas ocupam menos espaço na tela e não é preciso passar por grandes blocos de texto para ir de um tópico a outro. Ao fim dos tópicos há um campo de busca e um alfabeto para que o usuário possa buscar por outras plantas.
+[image alt text](../images/drive/image_11.png)
+[https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera](https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera) - 30-09-2017
 
 ## Personas
 
-*Persona* é uma ferramenta utilizada para representar características de um determinado público-alvo. "A palavra [persona] é usada para expressar a ideia de um ser humano que representa um comportamento, e que tem alguma ligação com os outros pela ação ou pelo afeto" (PAZMINO, 2015, p. 110). 
+_Persona_ é uma ferramenta utilizada para representar características de um determinado público-alvo. "A palavra [persona] é usada para expressar a ideia de um ser humano que representa um comportamento, e que tem alguma ligação com os outros pela ação ou pelo afeto" (PAZMINO, 2015, p. 110).
 
-A *persona *consiste em uma pessoa fictícia, ou personagem, que reúne os hábitos, interesses, faixa etária, ocupação, estilo de vida e outros aspectos do público. Para ter efetividade, a *persona* deve ser estereotipada com características extremas de um determinado público; isso garante que outras pessoas com atributos menos acentuados também sejam atendidas pelo projeto desenvolvido. 
+A _persona_ consiste em uma pessoa fictícia, ou personagem, que reúne os hábitos, interesses, faixa etária, ocupação, estilo de vida e outros aspectos do público. Para ter efetividade, a _persona_ deve ser estereotipada com características extremas de um determinado público; isso garante que outras pessoas com atributos menos acentuados também sejam atendidas pelo projeto desenvolvido.
 
-Neste trabalho, a criação das *personas* será feita a partir dos resultados de um questionário *online* intitulado "Como você busca informações sobre plantas medicinais na internet?". Este questionário irá prover dados sobre a idade do público, sua profissão, se buscam informações para uso pessoal ou profissional, quais as principais informações buscadas e quais os principais problemas encontrados na busca. O questionário completo, assim como seus resultados podem ser consultados no final deste trabalho no apêndice A.
+Neste trabalho, a criação das _personas_ será feita a partir dos resultados de um questionário _online_ intitulado "Como você busca informações sobre plantas medicinais na internet?". Este questionário irá prover dados sobre a idade do público, sua profissão, se buscam informações para uso pessoal ou profissional, quais as principais informações buscadas e quais os principais problemas encontrados na busca. O questionário completo, assim como seus resultados podem ser consultados no final deste trabalho no apêndice A.
 
 ### Análise do questionário
 
-O questionário foi realizado com a plataforma *Google forms*¹ e divulgado através de redes sociais e grupos de discussão de temas relacionados ao estudo e uso de plantas medicinais. As respostas foram recolhidas durante 7 dias, de 7 a 13 de outubro de 2017, nos quais foi possível obter 127 submissões. Os resultados foram analisados em grupos distintos a partir da pergunta 4 do questionário, "Você pesquisa sobre plantas medicinais para uso profissional ou pessoal?", as opçÕes de resposta eram “apenas pessoal”, “apenas profissional” e “profissional e pessoal”.
+O questionário foi realizado com a plataforma _Google forms_ e divulgado através de redes sociais e grupos de discussão de temas relacionados ao estudo e uso de plantas medicinais. As respostas foram recolhidas durante 7 dias, de 7 a 13 de outubro de 2017, nos quais foi possível obter 127 submissões. Os resultados foram analisados em grupos distintos a partir da pergunta 4 do questionário, "Você pesquisa sobre plantas medicinais para uso profissional ou pessoal?", as opçÕes de resposta eram “apenas pessoal”, “apenas profissional” e “profissional e pessoal”.
 
 Como só houve duas respostas afirmando "Apenas profissional" para pergunta 4, foram separados apenas dois grupos: um para as pessoas que fazem apenas uso pessoal das buscas (Grupo Pessoal) e outro para as que fazem uso pessoal e profissional (Grupo Profissional).
 
@@ -254,7 +137,7 @@ Na última pergunta, referente às principais dificuldades encontradas durante a
 
 Mulher, 46 anos, professora do fundamental.
 
-**Relação com as plantas**: Usa para si e para familiares. Usa o site para buscar receitas e identificar corretamente as plantas.
+**Relação com as plantas**: Usa para si e para familiares. Usa o site para buscar receitas e identificar corretamente as plantas. Muito do seu tempo livre ela passa cuidando do jardim; fazendo podas, novas mudas, transplantando e observando plantas espontâneas, tem muito interesse noo potenciais medicinal e alimentício das plantas.
 
 **Estilo de vida**: Nativa da Ilha, filhos na UFSC, tem jardim casa, vai em alguns mutirões do horto, almoços final de semana com a família, viagem nas férias
 
@@ -268,7 +151,7 @@ Mulher, 46 anos, professora do fundamental.
 
 **Capacidade técnica no uso do site**: Média
 
-**SItes que visita**: Grupo das PANCs no facebook, página do horto do HU, blog come-se, blogs em geral.
+**Sites que visita**: Grupo das PANCs no facebook, página do horto do HU, blog come-se, blogs em geral.
 
 **Fota linda **🌟
 
@@ -282,7 +165,7 @@ Mulher, 28 anos, médica do SUS florianópolis.
 
 **Objetivos no site**: Uso para pacientes do centro de saúde em que trabalha. Tanto na busca de terapias quanto para mostrar informações e imagens aos pacientes.
 
-**Razões para usar a página**: Informações técnicas sobre ações farmacológicas, interações medicamentosas e contra indicações. 
+**Razões para usar a página**: Informações técnicas sobre ações farmacológicas, interações medicamentosas e contra indicações.
 
 **Dificuldades/frustrações**: Falta de hierarquização das informações no site.
 
@@ -292,39 +175,41 @@ Mulher, 28 anos, médica do SUS florianópolis.
 
 **Fota linda 🌟**
 
-#### Admin - Administração do site
+#### Roberto - Administração do site
 
-Homem, 22 anos, bolsista da área da saúde 
+Homem, 22 anos, bolsista da área da saúde
 
-**Relação com as plantas:** Estudante de farmácia que ficou interessado pelas plantas medicinais após ingressar na UFSC e conhecer o Horto Medicinal. Cultiva algumas plantas em vasos na kitnet em que mora. 
+**Relação com as plantas:** Estudante de farmácia que ficou interessado pelas plantas medicinais após ingressar na UFSC e conhecer o Horto Medicinal. Cultiva algumas plantas em vasos na kitnet em que mora.
 
-**Estilo de vida:** Estudante universitário, veio de outra cidade para estudar, mora próximo à universidade, vai nos mutirões dos centros de saúde da cidade e do Horto Medicinal, sia a noite nas festas e bares da universidade, vai à praia e faz trilhas nos finais de semana. 
+**Estilo de vida:** Estudante universitário, veio de outra cidade para estudar, mora próximo à universidade, vai nos mutirões dos centros de saúde da cidade e do Horto Medicinal, sia a noite nas festas e bares da universidade, vai à praia e faz trilhas nos finais de semana.
 
 **Objetivos no site:** Adicionar e alterar informações a partir das sugestões recebidas através do site.  
 
-**Razões para usar a página:** ??? 
+**Razões para usar a página:** Realizar a manutenção das informações.
 
 **Dificuldades/Frustrações:** Interfaces complicadas e contra-intuitivas, dificuldade para realizar as funções administrativas.
 
-**Capacidade técnica no uso do site:** Média 
+**Capacidade técnica no uso do site:** Média
 
-**Sites que visita:** Facebook, gmail, cagr, moodle 
+**Sites que visita:** Facebook, gmail, cagr, moodle
 
-Fota linda 
+Fota linda
 
 ## Jornadas de usuário
+[TODO trocar pesquisa~acesso]
+Com o intuito de prever as ações dos usuários no site, é feito um levantamento de objetivos, necessidades, cenário e sequência de ações realizadas durante o uso. Este mapeamento será registrado na forma de jornadas de usuário, uma ferramenta descritiva para facilitar a visualização da informação e a comparação entre diferentes usos e usuários.
 
-[ … ]
+Par este trabalho, as jornadas serão divididas em cinco etapas distintas. Na etapa de _necessidade_ serão descritos o cenário e o motivo do uso; a etapa de _acesso ao site_ indica como o usuário encontra e acessa o site; na _acesso à informação_ é feita a descrição das ações necessárias para que o usuário encontre o conteúdo desejado dentro da página; a _interação_ consiste da interação do usuário com a página após acessar as informações desejadas; por fim, o _final_ descreve quais são as páginas acessadas e as ações realizadas após sanadas as necessidades do usuário.
 
 ### Márcia - Casa
 
-Necessidade - Márcia chegou em casa do trabalho sentindo dores no corpo e o nariz entupido, logo abre o site para buscar plantas que possam aliviar seus sintomas. 
+Necessidade - Márcia chegou em casa do trabalho sentindo dores no corpo e o nariz entupido, logo abre o site para buscar plantas que possam aliviar seus sintomas.
 
-Pesquisa - Buscando na internet por "Plantas medicinais gripe" encontra o site do horto entre os resultados.
+Acesso ao site - Buscando na internet por "Plantas medicinais gripe" encontra o site do horto entre os resultados.
 
-Acesso - Entrando no site, acessa uma lista de *links* para plantas com a tag "gripe", nela escolhe uma planta que tenha em sua dispensa ou no seu jardim.
+Acesso à informação Entrando no site, acessa uma lista de _links_ para plantas com a tag "gripe", nela escolhe uma planta que tenha em sua dispensa ou no seu jardim.
 
-Leitura - Na página da planta selecionada, observa as contraindicações para saber se é seguro usar aquela planta, caso haja algum impedimento, volta à página anterior e acessa outra planta.
+Interação - Na página da planta selecionada, observa as contraindicações para saber se é seguro usar aquela planta, caso haja algum impedimento, volta à página anterior e acessa outra planta.
 
 Final - A usuária então anota as informações da posologia da planta escolhida e fecha a página .
 
@@ -332,11 +217,11 @@ Final - A usuária então anota as informações da posologia da planta escolhid
 
 Necessidade - Durante uma consulta, Fernanda decide por usar uma planta no tratamento que vai receitar ao paciente e utiliza o site para mostrar as informações necessárias.
 
-Pesquisa - Acessa diretamente o site a partir de seus favoritos
+Acesso ao site - Acessa diretamente o site a partir de seus favoritos
 
-Acesso - No site, usa o campo de busca e acessa a página da planta desejada.
+Acesso à informação No site, usa o campo de busca e acessa a página da planta desejada.
 
-Leitura - Na página da planta, mostra ao paciente as fotos da planta e o site para que ele possa acessar mais tarde para eventuais dúvidas
+Interação - Na página da planta, mostra ao paciente as fotos da planta e o site para que ele possa acessar mais tarde para eventuais dúvidas
 
 Final - Anota no receituário as informações importantes para o paciente e fecha a página
 
@@ -344,11 +229,11 @@ Final - Anota no receituário as informações importantes para o paciente e fec
 
 Necessidade - Após o expediente, Fernanda acessa o site do horto para estudar o caso de um paciente que marcou uma consulta após apresentar reações negativas ao uso de uma planta
 
-Pesquisa - Acessa diretamente o site a partir de seus favoritos
+Acesso ao site - Acessa diretamente o site a partir de seus favoritos
 
-Acesso - No site, usa o campo de busca e acessa a página da planta desejada.
+Acesso à informação No site, usa o campo de busca e acessa a página da planta desejada.
 
-Leitura - Pesquisa nas áreas de reações adversas, interações medicamentosas e contra indicações para saber quais os fatores que podem ter causado as reações no caso que está acompanhando. Acessa também as referências e estudos mencionados quando entende ser necessário aprofundar-se em alguma informação
+Interação - Pesquisa nas áreas de reações adversas, interações medicamentosas e contra indicações para saber quais os fatores que podem ter causado as reações no caso que está acompanhando. Acessa também as referências e estudos mencionados quando entende ser necessário aprofundar-se em alguma informação
 
 Final - Com as informações coletadas, prepara uma lista de perguntas a serem feitas na consulta que podem ajudar a elucidar o caso.
 
@@ -436,7 +321,8 @@ Alguns dos sites não são apenas sobre plantas medicinais; quando é o caso, a 
 
 **Interação**
 
-* **Organização**: No menu há alguns submenus que levam para classificações específicas de algumas postagens. A coluna esquerda consiste principalmente links para postagens com títulos e fotos, organizadas por categoria. Na coluna direita há um campo de busca, links para uma loja de produtos naturais e uma lista de postagens recentes. As categorias são repetitivas genéricas.Na página de postagem a coluna direita mostra um campo de busca, um menu com as 5 postagens mais populares ou recentes, campo para assinar conteúdo via e-mail e uma sessão "veja também".
+* **Organização**: No menu há alguns submenus que levam para classificações específicas de algumas postagens. A coluna esquerda consiste principalmente links para postagens com títulos e fotos, organizadas por categoria. Na coluna direita há um campo de busca, links para uma loja de produtos naturais e uma lista de postagens recentes. As categorias são repetitivas genéricas.
+Na página de postagem a coluna direita mostra um campo de busca, um menu com as 5 postagens mais populares ou recentes, campo para assinar conteúdo via e-mail e uma sessão "veja também".
 
 * **Navegabilidade**: O site possui a estrutura de blog: postagens organizadas por categorias. As categorias podem ser facilmente acessadas pelos menus disponíveis. O campo de busca facilita a busca por conteúdos específicos. As sugestões de postagens à direita levam o leitor a seguir no site lendo conteúdos que não necessariamente estava buscando inicialmente.
 
@@ -490,6 +376,8 @@ Alguns dos sites não são apenas sobre plantas medicinais; quando é o caso, a 
 
 [...] Anállise da busca por plantas e da página de plantas.
 
+Nesta página a informação está separada em duas seções principais, pacientes e profissionais; em cada seção há tópicos que podem ser expandidos. Isto facilita o processo de encontrar a informação desejada, pois elas ocupam menos espaço na tela e não é preciso passar por grandes blocos de texto para ir de um tópico a outro. Ao fim dos tópicos há um campo de busca e um alfabeto para que o usuário possa buscar por outras plantas.
+
 **Estética**
 
 * **Diagramação**: Duas barras fixas no topo com campo de busca e menus para diferentes públicos alvos; adultos, crianças, profissionais da saúde e pesquisadores. O corpo do site é composto Por uma coluna principal e uma secundária de tamanhos diferentes. No final há um rodapé com contato e mapa do site.
@@ -511,6 +399,8 @@ Alguns dos sites não são apenas sobre plantas medicinais; quando é o caso, a 
 [https://nccih.nih.gov/](https://nccih.nih.gov/)
 
 [...] Não é um site só sobre plantas então será utilizada como página principal a seção "Herbs at a glance"
+
+Este site foi indicado pela organização textual das informações através de perguntas. Esta forma prevê questionamentos que o usuário pode ter ao acessar o site e organiza os dados sobre a planta na forma de tópicos que respondam a estas perguntas. As perguntas respondem a dúvidas que podem surgir de diversos públicos, "What do we know about safety?" (O que sabemos sobre segurança) é bastante útil tanto ao público leigo quanto a profissionais da saúde indicando plantas para seus pacientes; "How much do we know?" (O quanto sabemos?) auxilia pesquisadores a entender o que já existe em termos de pesquisa e em quais campos são necessários novos trabalhos, também auxilia profissionais a entender o quão embasadas e aprofundadas são as pesquisas sobre a planta pesquisada.
 
 **Estética**
 
@@ -568,40 +458,111 @@ Alguns dos sites não são apenas sobre plantas medicinais; quando é o caso, a 
   </tr>
 </table>
 
+## Análise de tendências
 
-#################
+`The arrangement of design elements within a given structure should allow the reader to easily focus on the message, without slowing down the speed of his reading`
 
-Delimitações
+`A focus on designing for content delivery, personalization, and conversion`
 
-* Versão desktop apenas (Maior que 768 pixels de largura)
+_Busca do behance, designer ou coontratante?_
 
-* Não será pensada acessibilidade completa (WCAGS)
+### Buscas
 
-* Preferência para uso de soft. Livre > soft. Códtrigo aberto > soft. Proprietário
+### Behance
+![alt](../images/tendencias/behance.png)
+Site de portifolios online para artes e design - Adobe
+* Menu pequeno no topo
+* h1
+* Conteúdo centralizado
+* grade com cards valorizando as imagens
 
-* Plataforma (WP?) como limitante do layout
+### Dribbble
+![alt](../images/tendencias/dribbble.png)
+Site para mostrar processos de artes e design - Dribbble
+* Menu pequeno no topo
+* h1 com CTA
+* Conteúdo centralizado
+* CTAs para públicos diferentes (What are you working on/Looking to hire a designer)
+* Grade com cards valorizando as imagens
 
-##################################
+### Youtube - busca
+![alt](../images/tendencias/yt-busca.png)
+Página de busca por vídeos no youtube - Google
+* Menu simples no topo
+* Menu lateral com ações do usuário
+* "Cards" horizontais??
+* Destaque para as imagens da busca
+* Conteúdo descentralizado
 
-1 - [http://www.mda.gov.br/ mda/sites/sitemda/files/user_arquivos_64/Programa_Nacional_de_Plantas_Medicinais_e_Fitoterápicos..pdf](http://www.mda.gov.br/sitemda/sites/sitemda/files/user_arquivos_64/Programa_Nacional_de_Plantas_Medicinais_e_Fitoterápicos..pdf) - Programa nacional de Plantas medicinais e Fitoterapicos - acesso em 14/08/2017
+### Index
 
-2 - [http://bvsms.saude.gov.br/bvs/publicacoes/pnpic.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/pnpic.pdf) - Política Nacional de Práticas Integrativas e Complementares no SUS - PNPIC-SUS /Ministério da Saúde, Secretaria de Atenção à Saúde, Departamento de Atenção Básica. - Brasília :Ministério da Saúde, 2006.
+### Gmail
+![alt](../images/tendencias/gmail.png)
+Serviço de email - Google
+* Composição com imagem de fundo
+* Espaço, poucos elementos interativos
+* CTA para navegação vertical
+* Menu no topo
+* h1 com CTA
+* Layout descentralizado
+* Destaque com cores
 
-3 - [http://www.pmf.sc.gov.br/entidades/saude/index.php?cms=praticas+integrativas+e+complementares&menu=5](http://www.pmf.sc.gov.br/entidades/saude/index.php?cms=praticas+integrativas+e+complementares&menu=5) - Criação da CPIC floripa - acesso em 14/08/2017
+### MDN
+![alt](../images/tendencias/mdn.png)
+Central de infomrações, referências e tutoriais para desenvolvedores _web_ - Mozilla
+* Imagem de fundo
+* CTA centralizado (busca)
+* h1
+* Menu no topo
+* Conteúdo centralizado
+* CTAs para públicos diferentes
 
-4 - [https://www.gnu.org/philosophy/free-sw.pt-br.html](https://www.gnu.org/philosophy/free-sw.pt-br.html) O que é software livre? - Projeto GNU - acesso em 29/08/2017
+### Travis Neilson
+![alt](../images/tendencias/travis.png)
+![alt](../images/tendencias/travis2.png)
+Página pessoal de desenvolvedor web da Google
+* Poucos elementos e bastante espaço
+* Tridimensionalidade
+* CTA para navegação vertical
+* Grade modular com elementos sobrepostos
+* Cards para separar CTAs e conteúdos
+* Destaque com cores
+* Conteúdo descentralizado
 
-5 - [https://www.fsf.org/about/what-is-free-software](https://www.fsf.org/about/what-is-free-software) What is free Software - FSF - acesso em 29/08/2017
+### Bourbon
+![alt](../images/tendencias/bourbon.png)
+Plugin para desenvolvimento web - Bourbon.io
+* Menu pequeno no topo
+* Poucos elementos, bastante espaço
+* h1
+* Conteúdo centralizado
 
-6 - GARRET, J.J. The elements of user experience. Indianapolis: New Riders, 2002
+### DuckDuckGo
+![alt](../images/tendencias/ddg.png)
+Buscador web - DuckDudckGo
+* Poucos elementos, bastante espaço
+* CTA centralizado
+* Conteúdo centralizado
+* CTA para navegação vertical
+* Menu interativo no canto superior
 
-[https://nccih.nih.gov/health/acai/ataglance.htm](https://nccih.nih.gov/health/acai/ataglance.htm) - print das perguntas açaí
+### DevTips
+![alt](../images/tendencias/devtips.png)
+Site com tutoriais e dicas para desenvolvimento web - Travis Neilson
+* Layout centralizado
+* Poucos elementos, bastante espaço
+* Menu no canto superior
+* Layout descentralizado
+* Cor destaque
 
-[https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera](https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera) - Sloan Kettering
-
-HOLMGREN, David. Permacultura: princípios e caminhos para além da sustentabilidade. Porto Alegre: Via Sapiens, 2013.
-
-# Apêndice A
-
-Questionário e tabela cos resultados
-
+### Análise geral
+* Estética
+	* Valorizar imagens, principalmente na busca.
+	* Margens e espaços vazios ajudam a encontarr a informação de forma direta
+	* Paleta com cinzas a uma cor-destaque
+	* Uma frase simples e direta que explique o que é o site.
+	* Página em 'blocos' com CTA para navegação vertical
+* Navegabilidade
+  * cards horizontais ajudam a mostrar mais informações textuais e não sobrecarregar a páginas
+  * Manter um menu simples no topo que permita acessar diversas áreas do site a partir de qualquer página
+  * Poucos elementos e destaque para CTAs
