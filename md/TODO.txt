@@ -1,3 +1,6 @@
+-refazer gráficos com nomes dos grupos
+-resolver ??
+#Formatação
 
 #################
 
@@ -32,7 +35,7 @@ Ministério da Saúde, 2006.
 [https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera](https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera) - Sloan Kettering
 
 HOLMGREN, David. Permacultura: princípios e caminhos para além da sustentabilidade. Porto Alegre: Via Sapiens, 2013.
-
+BONSIEPE, Gui et al. Metodologia experimental: desenho industrial. Brasília. CNPq / 1984.
 # Apêndice A
 
 Questionário e tabela cos resultados

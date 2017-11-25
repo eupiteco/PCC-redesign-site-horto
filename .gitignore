@@ -4,6 +4,9 @@
 *.out
 *.zip
 
+# Arquivos de compilação do pandoc
+*.html
+
 # Vim files
 *.swp
 
