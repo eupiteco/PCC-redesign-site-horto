@@ -1,5 +1,15 @@
 -refazer gráficos com nomes dos grupos
 -resolver ??
+-Horto do HU -> Medicinal
+-correção ortográfica
+- _site em algumas listas itálicas
+- Marcia - Casa: na_internet x
+-tradução de background
+-site na tabela tem q ser itálico usando html
+-imagem ddgo.png
+
+--palavras gringas
+-Persona, web, site, internet, benchmarking, software
 #Formatação
 
 #################
