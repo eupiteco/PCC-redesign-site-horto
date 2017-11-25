@@ -1,4 +1,4 @@
-. Plano de estratégia
+# Plano de estratégia
 
 No plano de estratégia serão registrados os objetivos do usuário e as necessidades dos usuários, levantando qual a forma de projetar o _site_ e para quem ele será projetado. Isso se dará através de cinco etapas:
 

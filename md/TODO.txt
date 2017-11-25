@@ -2,6 +2,7 @@
 -resolver ??
 -Horto do HU -> Medicinal
 -correção ortográfica
+-- sessões seções
 - _site em algumas listas itálicas
 - Marcia - Casa: na_internet x
 -tradução de background
@@ -9,7 +10,8 @@
 -imagem ddgo.png
 
 --palavras gringas
--Persona, web, site, internet, benchmarking, software
+-Persona, web, site, internet, benchmarking, software, layout, cards
+
 #Formatação
 
 #################
