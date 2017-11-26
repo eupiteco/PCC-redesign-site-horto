@@ -1,18 +1,14 @@
 -refazer gráficos com nomes dos grupos
--resolver ??
--Horto do HU -> Medicinal
--correção ortográfica
--- sessões seções
-- _site em algumas listas itálicas
-- Marcia - Casa: na_internet x
--tradução de background
--site na tabela tem q ser itálico usando html
--imagem ddgo.png
+-tirar a barra do vimperator imgs tendencias
+-tabela deu ruim O_O //colocar imagem pq plmdds
+-arrumar acentos nas labels pra referencias internas
+-data nos links
 
---palavras gringas
--Persona, web, site, internet, benchmarking, software, layout, cards
-
-#Formatação
+# PCC2
+-arrumar image_nn
+-mais arquivos .tex
+	+script pra converter md-tex
+	+arrumar caminho e legenda das imagens
 
 #################
 

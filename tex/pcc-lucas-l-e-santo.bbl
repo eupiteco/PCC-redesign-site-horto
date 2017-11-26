@@ -1,0 +1,219 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global}
+    \entry{bonsiepe83}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5c799582cd371e8c05ed0dc6bd9b26ab}{%
+           family={Bonsiepe},
+           family_i={B\bibinitperiod},
+           given={Gui\bibnamedelimb et\bibnamedelima al.},
+           given_i={G\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brasília}%
+      }
+      \list{publisher}{1}{%
+        {CNPq}%
+      }
+      \strng{namehash}{5c799582cd371e8c05ed0dc6bd9b26ab}
+      \strng{fullhash}{5c799582cd371e8c05ed0dc6bd9b26ab}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1984}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metodologia experimental: desenho industrial}
+      \field{year}{1984}
+    \endentry
+    \entry{fsf}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6629d5dc70c6577a9d33bbad6512a330}{%
+           family={{Free\bibnamedelimb Software\bibnamedelimb Foundation}},
+           family_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6629d5dc70c6577a9d33bbad6512a330}
+      \strng{fullhash}{6629d5dc70c6577a9d33bbad6512a330}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is free software}
+      \verb{url}
+      \verb https://www.fsf.org/about/what-is-free-software
+      \endverb
+    \endentry
+    \entry{gnuproj}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6629d5dc70c6577a9d33bbad6512a330}{%
+           family={{Free\bibnamedelimb Software\bibnamedelimb Foundation}},
+           family_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6629d5dc70c6577a9d33bbad6512a330}
+      \strng{fullhash}{6629d5dc70c6577a9d33bbad6512a330}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{O que é software livre?}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.gnu.org/philosophy/free-sw.pt-br.html
+      \endverb
+    \endentry
+    \entry{garret02}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b982a10a8b665f0f190f9623ba215544}{%
+           family={Garret},
+           family_i={G\bibinitperiod},
+           given={Jesse\bibnamedelima Jemes},
+           given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nova Iorque}%
+      }
+      \list{publisher}{1}{%
+        {New Riders}%
+      }
+      \strng{namehash}{b982a10a8b665f0f190f9623ba215544}
+      \strng{fullhash}{b982a10a8b665f0f190f9623ba215544}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{year}{2002}
+    \endentry
+    \entry{holmgren13}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d62101064c811198f79b12f0636b6d4d}{%
+           family={Holmgren},
+           family_i={H\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Porto Alegre}%
+      }
+      \list{publisher}{1}{%
+        {Via Sapiens}%
+      }
+      \strng{namehash}{d62101064c811198f79b12f0636b6d4d}
+      \strng{fullhash}{d62101064c811198f79b12f0636b6d4d}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{year}{2013}
+    \endentry
+    \entry{pnpic06}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=82e7cb45e31d4bf4591949b6913ab407}{%
+           family={{Ministério\bibnamedelimb da\bibnamedelimb Saúde}},
+           family_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{82e7cb45e31d4bf4591949b6913ab407}
+      \strng{fullhash}{82e7cb45e31d4bf4591949b6913ab407}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Política nacional de práticas integrativas e complementares no SUS - PNPIC-SUS}
+      \field{year}{2006}
+      \verb{url}
+      \verb http://bvsms.saude.gov.br/bvs/publicacoes/pnpic.pdf
+      \endverb
+    \endentry
+    \entry{pnpmf}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=82e7cb45e31d4bf4591949b6913ab407}{%
+           family={{Ministério\bibnamedelimb da\bibnamedelimb Saúde}},
+           family_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{82e7cb45e31d4bf4591949b6913ab407}
+      \strng{fullhash}{82e7cb45e31d4bf4591949b6913ab407}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Programa nacional de plantas medicinais e fitoterápicos}
+      \field{year}{2007}
+      \verb{url}
+      \verb http://www.mda.gov.br/sitemda/sites/sitemda/files/user_arquivos_64/Programa_Nacional_de_Plantas_Medicinais_e_Fitoter%C3%A1picos..pdf
+      \endverb
+    \endentry
+    \entry{pazmino10}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d41563f30c6fa3e4e2db95bc5e975173}{%
+           family={Pazmino},
+           family_i={P\bibinitperiod},
+           given={Ana\bibnamedelima Veronica},
+           given_i={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Blucher}%
+      }
+      \strng{namehash}{d41563f30c6fa3e4e2db95bc5e975173}
+      \strng{fullhash}{d41563f30c6fa3e4e2db95bc5e975173}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Como se cria: 40 métodos para design de produtos}
+      \field{year}{2015}
+    \endentry
+    \entry{picsc}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=de9a07a0888696bba405ad3c0d594272}{%
+           family={{Prefeitura\bibnamedelimb Municipal\bibnamedelimb de\bibnamedelimb Florianópolis}},
+           family_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{de9a07a0888696bba405ad3c0d594272}
+      \strng{fullhash}{de9a07a0888696bba405ad3c0d594272}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Criação da CPIC Florianópolis}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://www.pmf.sc.gov.br/entidades/saude/index.php?cms=praticas+integrativas+e+complementares&menu=5
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
