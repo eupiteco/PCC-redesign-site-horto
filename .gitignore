@@ -3,6 +3,10 @@
 *.log
 *.out
 *.zip
+*.lot
+*.toc
+*.run.xml
+*.lof
 
 # Arquivos de compilação do pandoc
 *.html

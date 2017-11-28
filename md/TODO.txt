@@ -1,10 +1,6 @@
--refazer gráficos com nomes dos grupos
--tirar a barra do vimperator imgs tendencias
--tabela deu ruim O_O //colocar imagem pq plmdds
--arrumar acentos nas labels pra referencias internas
--data nos links
 
 # PCC2
+-anexo falta ultima pergunta
 -arrumar image_nn
 -mais arquivos .tex
 	+script pra converter md-tex
