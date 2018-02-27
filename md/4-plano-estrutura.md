@@ -29,3 +29,5 @@ No preenchimento de formulários, os erros podem ocorrer por preenchimento incor
 Segundo c[garrett02], a arquitetura da informação trata das formas de organização do conteúdo em seções, páginas e componentes representados por nós. Nesta etapa será produzido um diagrama indicando a relação entre os nós do _site_ e o caminho do usuário entre eles. 
 
 <++ como foi organizado>
+
+![arq-info-img](tex/images/diagramas/principal.png "Esquema estrutural do _site_")
