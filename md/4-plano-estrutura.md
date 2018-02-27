@@ -30,4 +30,4 @@ Segundo c[garrett02], a arquitetura da informação trata das formas de organiza
 
 <++ como foi organizado>
 
-![arq-info-img](tex/images/diagramas/principal.png "Esquema estrutural do _site_")
+![arq-info-img](../tex/images/diagramas/principal.png "Esquema estrutural do _site_")
