@@ -30,9 +30,9 @@ Segundo c[garrett02], a arquitetura da informação trata das formas de organiza
 
 Para a organização utilizou-se a técnica de _cardsorting_ em que os nós são representados por cartões e apresentados a pessoas que correspondem aos perfis de público-alvo para que os organizem. As diferentes organizações registradas são analisadas para a construção da arquitetura final da página.
 
-![arq-info-img](..tex/images/diagramas/principal.png "Esquema estrutural do _site_")
-![arq-info-img](..tex/images/diagramas/v2_cs8.png "Esquema estrutural do _site_")
-![arq-info-img](..tex/images/diagramas/v3.png "Esquema estrutural do _site_")
+![arq-info-img](../tex/images/diagramas/principal.png "Esquema estrutural do _site_")
+![arq-info-img](../tex/images/diagramas/v2_cs8.png "Esquema estrutural do _site_")
+![arq-info-img](../tex/images/diagramas/v3.png "Esquema estrutural do _site_")
 
 As informações do _site_ foram organiadas em 4 categorias: institucional, ferramentas de busca, informações sobre plantas, e administrativo. Estas informações ficaram organizadas em três grandes seções: página inicial, planta, painel administrativo; além de páginas auxiliares ou de acesso.
 
