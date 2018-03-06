@@ -30,16 +30,10 @@ Segundo c[garrett02], a arquitetura da informação trata das formas de organiza
 
 Para a organização utilizou-se a técnica de _cardsorting_ em que os nós são representados por cartões e apresentados a pessoas que correspondem aos perfis de público-alvo para que os organizem. As diferentes organizações registradas são analisadas para a construção da arquitetura final da página.
 
-<<<<<<< HEAD
-![arq-info-img](tex/images/diagramas/principal.png "Esquema estrutural do _site_")
-![arq-info-img](tex/images/diagramas/v2_cs8.png "Esquema estrutural do _site_")
-![arq-info-img](tex/images/diagramas/v3.png "Esquema estrutural do _site_")
+![arq-info-img](..tex/images/diagramas/principal.png "Esquema estrutural do _site_")
+![arq-info-img](..tex/images/diagramas/v2_cs8.png "Esquema estrutural do _site_")
+![arq-info-img](..tex/images/diagramas/v3.png "Esquema estrutural do _site_")
 
 As informações do _site_ foram organiadas em 4 categorias: institucional, ferramentas de busca, informações sobre plantas, e administrativo. Estas informações ficaram organizadas em três grandes seções: página inicial, planta, painel administrativo; além de páginas auxiliares ou de acesso.
 
 A seção da página inicial contém as ferramentas para a busca de plantas, informações institucionais do Horto, acesso à área administrativa, uma ligação para a página de cuidados gerais no uso de plantas e outra para o formulário de contato do horto. A sessão de plantas é acessada através das ferramentas de busca e inicia sempre com uma mensagem informando que os conteúdos dispostos no _site_ são informativos e não substituem auxílio profissional, esta seção contém a ficha da planta, com as informações para identificação correta, informações para uso pessoal e para uso profissional. Também possui ligações para o formulário de sugestões, o glossário e para a página de cuidados gerais. Na área administrativa encontram-se a função de cadastrar novo usuário e de editar o conteúdo do _site_.
-
-
-=======
-![arq-info-img](../tex/images/diagramas/principal.png "Esquema estrutural do _site_")
->>>>>>> 7b89aad1f8d918dd8053871ec066dc78b6d7c871
