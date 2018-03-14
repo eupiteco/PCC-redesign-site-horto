@@ -4,15 +4,15 @@ c[garret02] define o plano de estrutura como o início da tomada de decisões qu
 
 ## Design de interação l[dsn-interacao]
 
-Nesta etapa o autor propõe a criação de um modelo conceitual e um sistema de tratamento de erros. O modelo conceitural deve ser baseado em elementos familiares aos usuários e que tenham relação com o tipo de _site_ que está sendo construído. Como exemplo são mencionados o carrinho de compras, bastante comum em lojas virtuais, e a revista ou jornal, que são bastante referenciados em sites de notícias. O tratamento de erros tem a função de garantir uma boa experiência de usuário ao utilizar o produto desenvolvido, ele é organizado em três momentos: prevenção, correção e recuperação.
+Nesta etapa o autor propõe a criação de um modelo conceitual e um sistema de tratamento de erros. O modelo conceitual deve ser baseado em elementos familiares aos usuários e que tenham relação com o tipo de _site_ que está sendo construído. Como exemplo são mencionados o carrinho de compras, bastante comum em lojas virtuais, e a revista ou jornal, que são bastante referenciados em sites de notícias. O tratamento de erros tem a função de garantir uma boa experiência de usuário ao utilizar o produto desenvolvido, ele é organizado em três momentos: prevenção, correção e recuperação.
 
 ### Modelo conceitual l[mod-conceitual]
 
 A criação de um modelo conceitual do _site_ do Horto do HU iniciou com uma análise de duas referências da sessão r[analise-de-similares]: Memorial Sloan Kettering Cancer Center (MSKCC) e National Center for Complementary and Integrative Health (NCCIH).
 
-O MSKCC, por tratar-se de um hospital, emula virtualmente a recepção do usuário no mesmo. Frases dirigidas diretamente ao usuário como pode ser observado na figura XX e telas que se alternam sequencialmente vão oferecendo os serviços da instituição. Ao acessar diferentes partes do _site_ a linguagem continua sendo dirigida ao usuário que é guiado como se estivesse passando por alas do hospital para encontrar o serviço desejado. O layout também é receptivo, utilizando fotos e blocos de cor para preencher as telas.
+O MSKCC, por tratar-se de um hospital, emula virtualmente a recepção do usuário no mesmo. Frases dirigidas diretamente ao usuário como pode ser observado na figura XX e telas que se alternam sequencialmente vão oferecendo os serviços da instituição. Ao acessar diferentes partes do _site_ a linguagem continua sendo dirigida ao usuário que é guiado como se estivesse passando por alas do hospital para encontrar o serviço desejado. O _layout_ também é receptivo, utilizando fotos e blocos de cor para preencher as telas.
 
-O NCCIH é o setor do governo estadunidense que trata de práticas integrativas e complementares e seu _site_ tem a estrutura de um catálogo de serviços ou material informacional institucional. Os dizeres são na 1a pessoa do plural, sempre referentes ao próprio NCCIH. A navegação é bastante simples com poucos níveis de hierarquia, sempre 2 ou 3 apenas. O layout com fundo branco e blocos de texto/imagem remete à aparência de um informativo impresso ou um jornal.
+O NCCIH é o setor do governo estadunidense que trata de práticas integrativas e complementares e seu _site_ tem a estrutura de um catálogo de serviços ou material informacional institucional. Os dizeres são na 1a pessoa do plural, sempre referentes ao próprio NCCIH. A navegação é bastante simples com poucos níveis de hierarquia, sempre dois ou três apenas. O _layout_ com fundo branco e blocos de texto/imagem remete à aparência de um informativo impresso ou um jornal.
 
 Para o projeto tema deste trabalho, por este ter como principal função ser um repositório de informação para consulta, decidiu-se por um modelo conceitual de biblioteca. O usuário poderá acessar o _site_, fazer uma consulta ao acervo e obter as informações que lhe são interessantes sem auxílio de outra pessoa. O caminho deve ser simples e explícito.<++> 
 
@@ -26,14 +26,22 @@ No preenchimento de formulários, os erros podem ocorrer por preenchimento incor
 
 ## Arquitetura da informação l[arq-informacao]
 
-Segundo c[garrett02], a arquitetura da informação trata das formas de organização do conteúdo em seções, páginas e componentes, todos representados por nós. Nesta etapa será produzido um diagrama indicando a relação entre os nós do _site_ e o caminho do usuário entre eles. 
+Segundo c[garret02], a arquitetura da informação trata das formas de organização do conteúdo em seções, páginas e componentes, todos representados por nós. Nesta etapa será produzido um diagrama indicando a relação entre os nós do _site_ e o caminho do usuário entre eles. 
 
 Para a organização utilizou-se a técnica de _cardsorting_ em que os nós são representados por cartões e apresentados a pessoas que correspondem aos perfis de público-alvo para que os organizem. As diferentes organizações registradas são analisadas para a construção da arquitetura final da página.
 
-![arq-info-img](../tex/images/diagramas/principal.png "Esquema estrutural do _site_")
-![arq-info-img](../tex/images/diagramas/v2_cs8.png "Esquema estrutural do _site_")
-![arq-info-img](../tex/images/diagramas/v3.png "Esquema estrutural do _site_")
+![arq-info-img](../tex/images/diagramas/v3.png "Esquema estrutural do site")
 
-As informações do _site_ foram organiadas em 4 categorias: institucional, ferramentas de busca, informações sobre plantas, e administrativo. Estas informações ficaram organizadas em três grandes seções: página inicial, planta, painel administrativo; além de páginas auxiliares ou de acesso.
+As informações do _site_ foram organizadas de duas formas: **categorias** e **seções**. As categorias classificam e agrupam as informações em relação ao seu conteúdo, as seções as agrupam levando em conta a navegação: quais informações estarão em uma mesma tela ou área do site.
 
-A seção da página inicial contém as ferramentas para a busca de plantas, informações institucionais do Horto, acesso à área administrativa, uma ligação para a página de cuidados gerais no uso de plantas e outra para o formulário de contato do horto. A sessão de plantas é acessada através das ferramentas de busca e inicia sempre com uma mensagem informando que os conteúdos dispostos no _site_ são informativos e não substituem auxílio profissional, esta seção contém a ficha da planta, com as informações para identificação correta, informações para uso pessoal e para uso profissional. Também possui ligações para o formulário de sugestões, o glossário e para a página de cuidados gerais. Na área administrativa encontram-se a função de cadastrar novo usuário e de editar o conteúdo do _site_.
+As categorias criadas são _plantas_, _institucional_, _administração_ e _ferramentas de busca_. _Plantas_ é a principal categoria deste projeto, nela estão reunidas as informações sobre identificação, uso pessoal e profissional e o glossário. _Ferramentas de bsuca_ agrupa três diferentes mecanismos para acessar as informações sobre plantas: busca textual, _tags_ ou etiquetas temáticas com sintomas e ações farmacológicas e por fim uma lista completa das plantas de acordo com seu nome científico. Em _institucional_ estão as informações ligadas diretamente ao Horto Medicinal: sobre o Horto, contato e redes sociais, orientações para o uso seguro, formulário de sugestões e um alerta indicando que o _site_ é apenas para fins informativos e que não substitui auxílio profissional. A categoria _administração_ reúne as páginas e ferramentas dedicadas à gestão do conteúdo e dos administradores do _site_.
+
+Para agrupar as informações em blocos de navegação foram definidas três seções: _Início_, _Fichas informativas_ e _Painel Administrativo_. O início funciona como a entrada do site, ele contém informações sobre o Horto Medicinal, suas redes sociais, as ferramentas de busca e um campo para login administrativo; ela está ligada diretamente às páginas de contato e uso seguro. Através das ferramentas de busca ela leva à seção de _fichas informativas_ que abre com o alerta de finalidade do _site_, contém as informações de identificação das plantas, seu uso pessoal, uso profissional e leva às páginas de glossário, uso seguro e ao formulário de sugestões. O _painel administrativo_ é acessado a partir do campo de login na página inicial e contém ferramentas para registro de novos administradores e edição de conteúdo.
+
+![arq-info-img](../tex/images/diagramas/detalhamento.png "Detalhamento dos elementos interativos do site.")
+
+Grid para monitor 1920x1080, largura de 1280px com 12 colunas de 92px e gutter de 16px
+
+![arq-info-img](../tex/images/esqueletos/grid.png "Grid proposto <++descrição>")
+
+![arq-info-img](../tex/images/esqueletos/inicio.png "Esqueleto da página inicial do site")
