@@ -14,7 +14,7 @@ Para a construção do grid, dos _wireframes_ e dos protótipos de baixa fidelid
 
 ## Página inicial
 
-![arq-info-img](../wireframes/pages/inicio.png "Layout de baixa fidelidade da página inicial.") l[wire-inicio]
+![arq-info-img](../wireframes/pages/incio.png "Layout de baixa fidelidade da página inicial.") l[wire-inicio]
 
 Na figura ref[wire-inicio] está disposto o wireframe da página inicial completa do _site_. Ela contém os mecanismos de busca, _link_ para informações sobre o Horto Medicinal e _links_ para rede social e contato. O menu superior e o rodapé são fixos para todas as páginas subsequentes.
 
