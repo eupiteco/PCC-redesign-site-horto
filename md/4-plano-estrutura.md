@@ -14,7 +14,21 @@ O MSKCC, por tratar-se de um hospital, emula virtualmente a recepção do usuár
 
 O NCCIH é o setor do governo estadunidense que trata de práticas integrativas e complementares e seu _site_ tem a estrutura de um catálogo de serviços ou material informacional institucional. Os dizeres são na 1a pessoa do plural, sempre referentes ao próprio NCCIH. A navegação é bastante simples com poucos níveis de hierarquia, sempre dois ou três apenas. O _layout_ com fundo branco e blocos de texto/imagem remete à aparência de um informativo impresso ou um jornal.
 
-Para o projeto tema deste trabalho, por este ter como principal função ser um repositório de informação para consulta, decidiu-se por um modelo conceitual de biblioteca. O usuário poderá acessar o _site_, fazer uma consulta ao acervo e obter as informações que lhe são interessantes sem auxílio de outra pessoa. O caminho deve ser simples e explícito.<++> 
+Para o projeto tema deste trabalho, por este ter como principal função ser um repositório de informação para consulta, decidiu-se por um modelo conceitual de biblioteca. O usuário poderá acessar o _site_, fazer uma consulta ao acervo e obter as informações que lhe são interessantes sem auxílio de outra pessoa.
+
+A partir deste modelo conceitual, o autor utilizou _sites_ de bibliotecas brasileiras e extrangeiras como referência para a construção deste projeto. As bibliotecas públicas pesquisadas, Biblioteca Nacional, Biblioteca de Nova York e Biblioteca de Londres, pouco acrescentaram pois suas páginas tinha a função de um painel de avisos sobre atividades culturais do museu e não focavam em mecanismos de busca no seu acervo. Para este estudo as bibliotecas universitárias se mostraram muito mais interessantes por colocar a busca como principal <??> dos seus _sites_.
+
+Nas figuras ref[bu-cuny], ref[bu-camb], ref[bu-ufpr], o menu superior, quando presente, diz respeito às universidades; desta forma o conteúdo das bibliotecas fica hierarquicamente dentro da informação de suas respectivas universidades. Nas três figuras também é possível notar o destaque dado á ferrramenta de pesquisa, ela encontra-se no topo das páginas e com margens grandes que ajudam a destacá-la. Todas as buscas podem ser feitas de forma geral ou por dados específicos das obras como título, autor etc. O restante das páginas é composto por links para serviços da bibilioteca e uma seção de notíciascom estrutura semelhante à de  um blog.
+
+![arq-info-img](../tex/images/similares/bu-cuny.png "Site da biblioteca da Universidade da Cidade de Nova York (CUNY)") l[bu-cuny]
+
+![arq-info-img](../tex/images/similares/bu-cambridge.png "Biblioteca da Universidade de Cambridge") l[bu-camb]
+
+![arq-info-img](../tex/images/similares/bu-ufpr.png "Biblioteca da Universidade Federal do Paraná (UFPR)") l[bu-ufpr]
+
+Os resultados de busca são exibidos em páginas distintas dos portais das bibliotecas pois são gerenciados por sistemas diferentes. Os títulos encontrados são organizados em fichas horizontais com a imagem da obra e infomrações que auxiliem na identificação da mesma. Esta forma de organização já foi analizada na sessão ref[analise-de-tendencias] Análise de Tendências, item ref[youtube---busca]. A página de resultados também oferece opções de busca avançada a partir de informações como data, língua da publicação etc.
+
+<++ img da busca>
 
 ### Tratamento de erros l[trt-erros]
 
@@ -39,9 +53,3 @@ As categorias criadas são _plantas_, _institucional_, _administração_ e _ferr
 Para agrupar as informações em blocos de navegação foram definidas três seções: _Início_, _Fichas informativas_ e _Painel Administrativo_. O início funciona como a entrada do site, ele contém informações sobre o Horto Medicinal, suas redes sociais, as ferramentas de busca e um campo para login administrativo; ela está ligada diretamente às páginas de contato e uso seguro. Através das ferramentas de busca ela leva à seção de _fichas informativas_ que abre com o alerta de finalidade do _site_, contém as informações de identificação das plantas, seu uso pessoal, uso profissional e leva às páginas de glossário, uso seguro e ao formulário de sugestões. O _painel administrativo_ é acessado a partir do campo de login na página inicial e contém ferramentas para registro de novos administradores e edição de conteúdo.
 
 ![arq-info-img](../tex/images/diagramas/detalhamento.png "Detalhamento dos elementos interativos do site.")
-
-Grid para monitor 1920x1080, largura de 1280px com 12 colunas de 92px e gutter de 16px
-
-![arq-info-img](../tex/images/esqueletos/grid.png "Grid proposto <++descrição>")
-
-![arq-info-img](../tex/images/esqueletos/inicio.png "Esqueleto da página inicial do site")

@@ -7,6 +7,10 @@
 *.toc
 *.run.xml
 *.lof
+*.bbl
+*.bcf
+*.bld
+*.idx
 
 # Arquivos de compilação do pandoc
 *.html
