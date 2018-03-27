@@ -30,3 +30,24 @@ O rodapé reúne informações adicionais como endereço e telefone, uma  lista 
 ## Ficha de planta
 
 ![arq-info-img](../wireframes/pages/ficha_da_planta.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Etiquetas
+
+![arq-info-img](../wireframes/pages/etiquetas.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Artigo
+
+![arq-info-img](../wireframes/pages/artigo.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Erro na busca
+
+![arq-info-img](../wireframes/pages/erro_busca.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Aviso legal
+
+![arq-info-img](../wireframes/pages/aviso_legal.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Sugestão
+
+![arq-info-img](../wireframes/pages/sugesto.png "Layout de baixa fidelidade da ficha da planta.")
+
