@@ -1,6 +1,6 @@
 # Plano de esqueleto l[plano-de-esqueleto]
 
-Em c[garret02] o plano de esqueleto é descrito como a etapa em que traduzimos o acúmulo conceitual das etapas nteriores em protótipos de baixa e média fidelidade, organizando os elementos na página.
+Em c[garret02] o plano de esqueleto é descrito como a etapa em que traduzimos o acúmulo conceitual das etapas nteriores em protótipos de baixa e média fidelidade, organizando os elementos na página. para este trabalho, serão desenvolvidos <++> modelos de página: página inicial, artigo, etiquetas, resultados da busca, erro de busca, ficha da planta, termo legal, fiha da planta, formulário de sugestão, painel administrativo, lista de plantas publicadas e edição de fichas das plantas.
 
 ## Grid
 
@@ -12,42 +12,58 @@ Para a construção do grid, dos _wireframes_ e dos protótipos de baixa fidelid
 
 ![arq-info-img](../tex/images/esqueletos/grid.png "Grid proposto <++descrição>")
 
+## Elementos fixos
+
+As páginas serão compostas por dois cabeçalhos e um rodapé fixos e corpos de conteúdo diferentes em cada tela. 
+
+O primeiro cabeçalho é o cabeçalho padrão do _site_ da UFSC, como o horto está vinculado à universidade e estará dentro do domínio .ufsc.br, entendeu-se necessária a inclusão dete cabeçalho. O segundo cabeçalho contém a logo do horto na primeira linha e o menu principal na segunda. A logo  leva sempre à página inicial. O primeiro item do menu, uso seguro de plantas, fica destacado pois é uma seção bastante referenciada nas fichas de plantas e <++> contém informações importantes para o usuário, principalmente o público que faz uso pessoal de plantas medicinais. O ícone de busca à direita expande para um campo de busca; quando não há outro campo de busca no corpo da página, o campo do ícone fica expandido por padrão.
+
+O rodapé contém uma logo da UFSC que leva à sua página principal, um mapa do _site_ e informações para contato.
+
 ## Página inicial
 
-![arq-info-img](../wireframes/pages/incio.png "Layout de baixa fidelidade da página inicial.") l[wire-inicio]
+A página inicial é composta por três áreas distintas, ferramentas de busca, resumo sobre o Horto e contato. Nas ferramentas de busca há um campo textual destacado e _links_ auxiliares que levam às listas de plantas, usos populares e ações medicinais. Em seguida, o resumo sobre o horto é constituído por uma foto que ocupa toda a largura da tela com um resumo e um link para o artigo **Sobre o horto**. Por fim, o contato é composto por um _link_ para a rede social do Horto e outro para o endereço de email.
 
-Na figura ref[wire-inicio] está disposto o wireframe da página inicial completa do _site_. Ela contém os mecanismos de busca, _link_ para informações sobre o Horto Medicinal e _links_ para rede social e contato. O menu superior e o rodapé são fixos para todas as páginas subsequentes.
-
-No menu há o _link_ para uso seguro de plantas destacado pois a equipe gesetora do Horto entende ser uma informação fundamental e que deve ser de fácil acesso; no _site_ inteiro ela está em um local fixo e também aparece quando necessário nas paginas de fichas das plantas. O _link_ Sobre o Horto leva à respectiva página. O _link_ contato leva à área da página inicial em que estão o _email_ e a rede social do Horto Medicinal. O link _login_ leva à área administrativa do derenciador de conteúdo. Por fim, um ícone de lupa que expande para um campo de busca permitindo realizar uma nova busca com facilidade a partir de um ponto qualquer do _site_.
-
-O rodapé reúne informações adicionais como endereço e telefone, uma  lista das páginas do site e _links_ para os _sites_ da UFSC e do CCS.
-
-
-## Resultado das buscas
-
-![arq-info-img](../wireframes/pages/resultados_da_busca.png "Layout de baixa fidelidade dos resultados da busca.")
-
-## Ficha de planta
-
-![arq-info-img](../wireframes/pages/ficha_da_planta.png "Layout de baixa fidelidade da ficha da planta.")
-
-## Etiquetas
-
-![arq-info-img](../wireframes/pages/etiquetas.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/inicio.png "Layout de baixa fidelidade da página inicial.") l[wire-inicio]
 
 ## Artigo
 
-![arq-info-img](../wireframes/pages/artigo.png "Layout de baixa fidelidade da ficha da planta.")
+O modelo _artigo_ será utilizado para comportar textos longos como **sobre o HOrto** e **uso seguro de plantas**. Ele é composto de um tótulo destacado, um botão para download em PDF do artigo, o corpo de texto e imagens e uma sessão com as referências citadas e eventuais _links_ para as mesmas.
+
+![arq-info-img](../wireframes/v3/pages/artigo.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Etiquetas
+
+o modelo de _etiquetas_ irá organizar as listas de **usos populares** e **ações medicinais**. As etiquetas com as palavras-chave ficarão dispostas em ordem alfabética e separadas por linhas horizontais de acordo com a letra inicial, um alfabeto no topo da página auxiliará na navegação. Cada etiqueta levará a uma lista com as plantas marcada com a palavra-chave contida.
+
+![arq-info-img](../wireframes/v3/pages/etiquetas.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Resultado das buscas
+
+O _resultado das buscas_ pode ser acessado de três diferentes formas, a partir de uma busca textual, de uma etiqueta ou do link para a **lista de plantas**. Nos dois primeiros casos, os resultados são filtrados pelo termo buscado ou pela etiqueta, no terceiro todas as plantas cadastradas são listadas.
+No topo da tela há um campo para novas bucas e opções para busca avançada. Os resultados são mostrados em _cards_ com uma foto, nome científico, nomes populares, usos populares, ações medicinais e data da última atualização desta informação.
+![arq-info-img](../wireframes/v3/pages/reusltados_busca.png "Layout de baixa fidelidade dos resultados da busca.")
+
+## Termo legal
+
+Esta tela aparecerá sempre que o usuário acessar uma _ficha de planta_. Ele contém um texto isentando o Horto legalmente do uso indevido de plantas medicinais. Para diversas pesquisas recorrentes em um único uso, uma caixa pode ser marcada para que essa mensagem não seja mostrada até o final do acesso ao _site_.
+
+![arq-info-img](../wireframes/v3/pages/termo.png "Layout de baixa fidelidade da ficha da planta.")
+
+## Ficha de planta
+
+A _ficha de planta_ está dividida em informações para identificação da planta, informações para uso pessoal e informações para uso profissional. Na área de identificação da planta, a organização e o conteúdo se assemelham bastante aos _cards_ do _resultado das buscas_, funcionando como uma confirmação visual de que a ficha acessada corresponde à planta desejada; as diferenças são adição de mais fotos da planta que podem ser acessadas em um sistema de _slides_ e o acréscimo de um pequeno texto com a descrição botânica das plantas. As áreas de informação pessoal e profissional estão organizadas em diferentes tópicos que podem ser expandidos revelando o seu conteúdo, este sistema facilita a navegação na tela pois permite ver mais tópicos de uma só vez.
+
+![arq-info-img](../wireframes/v3/pages/ficha_da_planta.png "Layout de baixa fidelidade da ficha da planta.")
 
 ## Erro na busca
 
-![arq-info-img](../wireframes/pages/erro_busca.png "Layout de baixa fidelidade da ficha da planta.")
-
-## Aviso legal
-
-![arq-info-img](../wireframes/pages/aviso_legal.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/erro_busca.png "Layout de baixa fidelidade da ficha da planta.")
 
 ## Sugestão
 
-![arq-info-img](../wireframes/pages/sugesto.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/sugesto.png "Layout de baixa fidelidade da ficha da planta.")
+
+![arq-info-img](../wireframes/v3/pages/confirmao_sugesto.png "Layout de baixa fidelidade da ficha da planta.")
+
 
