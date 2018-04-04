@@ -1,6 +1,6 @@
 # Plano de esqueleto l[plano-de-esqueleto]
 
-Em c[garret02] o plano de esqueleto é descrito como a etapa em que traduzimos o acúmulo conceitual das etapas anteriores em protótipos de baixa e média fidelidade, organizando os elementos na página. Para este trabalho, serão desenvolvidos XX modelos de página em duas categorias distintas. Na categoria _usuário final_ estarão as páginas inicial, artigo, etiquetas, resultados da busca, erro de busca, ficha da planta, termo legal, ficha da planta e formulário de sugestão. Na categoria _ferramentas administrativas_ estarão as páginas de painel administrativo, lista de plantas publicadas e edição de fichas das plantas.
+Em c[garret02] o plano de esqueleto é descrito como a etapa em que traduzimos o acúmulo conceitual das etapas anteriores em protótipos de baixa e média fidelidade, organizando os elementos na página. Para este trabalho, serão desenvolvidos XX modelos de página em duas áreas distintas. Na área _usuário final_ estarão as páginas inicial, artigo, etiquetas, resultados da busca, erro de busca, ficha da planta, termo legal, ficha da planta e formulário de sugestão. Na área _ferramentas administrativas_ estarão as páginas de painel administrativo, lista de plantas publicadas e edição de fichas das plantas.
 
 ## Grid
 
@@ -45,7 +45,8 @@ o modelo de _etiquetas_ irá organizar as listas de **usos populares** e **açõ
 
 O _resultado das buscas_ pode ser acessado de três diferentes formas, a partir de uma busca textual, de uma etiqueta ou do link para a **lista de plantas**. Nos dois primeiros casos, os resultados são filtrados pelo termo buscado ou pela etiqueta, no terceiro todas as plantas cadastradas são listadas.
 No topo da tela há um campo para novas bucas e opções para busca avançada. Os resultados são mostrados em _cards_ com uma foto, nome científico, nomes populares, usos populares, ações medicinais e data da última atualização desta informação.
-![arq-info-img](../wireframes/v3/pages/reusltados_busca.png "Layout de baixa fidelidade dos resultados da busca.")
+
+![arq-info-img](../wireframes/v3/pages/resultados_busca.png "Layout de baixa fidelidade dos resultados da busca.")
 
 ### Erro na busca
 
@@ -57,11 +58,11 @@ O modelo _erro na busca_ é utilizado para situações em que a busca textual n�
 
 Esta tela aparecerá sempre que o usuário acessar uma _ficha de planta_. Ele contém um texto isentando o Horto legalmente do uso indevido de plantas medicinais. Para diversas pesquisas recorrentes em um único uso, uma caixa pode ser marcada para que essa mensagem não seja mostrada até o final do acesso ao _site_.
 
-![arq-info-img](../wireframes/v3/pages/termo.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/termo_legal.png "Layout de baixa fidelidade da ficha da planta.")
 
 ### Ficha de planta
 
-A _ficha de planta_ está dividida em informações para identificação da planta, informações para uso pessoal e informações para uso profissional. Na área de identificação da planta, a organização e o conteúdo se assemelham bastante aos _cards_ do _resultado das buscas_, funcionando como uma confirmação visual de que a ficha acessada corresponde à planta desejada; as diferenças são adição de mais fotos da planta que podem ser acessadas em um sistema de _slides_ e o acréscimo de um pequeno texto com a descrição botânica das plantas. As áreas de informação pessoal e profissional estão organizadas em diferentes tópicos que podem ser expandidos revelando o seu conteúdo, este sistema facilita a navegação na tela pois permite ver mais tópicos de uma só vez.
+A _ficha de planta_ está dividida em informações para identificação da planta, informações para uso pessoal e informações para uso profissional. Na área de identificação da planta, a organização e o conteúdo se assemelham bastante aos _cards_ do _resultado das buscas_, funcionando como uma confirmação visual de que a ficha acessada corresponde à planta desejada; as diferenças são adição de mais fotos da planta que podem ser acessadas em um sistema de _slides_, o acréscimo de um pequeno texto com a descrição botânica das plantas e um _link_ para editar a ficha da planta; este _link_ leva a uma tela de _login_ caso o usuário ainda não tenha se identificado como administrador. As áreas de informação pessoal e profissional estão organizadas em diferentes tópicos que podem ser expandidos revelando o seu conteúdo, este sistema facilita a navegação na tela pois permite ver mais tópicos de uma só vez.
 
 ![arq-info-img](../wireframes/v3/pages/ficha_da_planta.png "Layout de baixa fidelidade da ficha da planta.")
 
@@ -85,4 +86,14 @@ O _painel administrativo_ é acessado a partir do _login_ no segundo cabeçalho 
 
 ![arq-info-img](../wireframes/v3/pages/painel_administrativo.png "Layout de baixa fidelidade da ficha da planta.")
 
-###
+### Lista de plantas publicadas
+
+Esta página é acessada a partir do _painel administrativo_ através do botão "editar planta" ou do _link_ "Plantas" no menu lateral. Ela consiste de uma tabela com os nomes científicos das plantas publicadas e a data em que foi realizada a última alteração. A coluna de nomes funciona como _link_ para aspáginas de edição das respectivas plantas.
+
+![arq-info-img](../wireframes/v3/pages/lista_edio.png "Layout de baixa fidelidade da ficha da planta.")
+
+### Edição da ficha de planta
+
+A _edição da ficha de planta_ é um formulário com um campo editável para cada um dos itens presentes no modelo _ficha de planta_, ela pode ser acessada a partir da _lista de plantas publicadas_ ou pelo link para edição presente na páginas de _ficha de planta_. Os campos editáveis estão separados em identificação da planta, informações para uso pessoal e informações para uso profissional, isto ajuda a encontrar a informação que deseja editar com mais facilidade. Ao final de cada uma das três áreas há um botão que confirma e publica as alterações realizadas, assim ele está sempre aparente facilitando edições rápidas e pontuais. 
+
+![arq-info-img](../wireframes/v3/pages/edio_planta.png "Layout de baixa fidelidade da ficha da planta.")
