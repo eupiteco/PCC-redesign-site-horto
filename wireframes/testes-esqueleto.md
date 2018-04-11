@@ -35,3 +35,23 @@ início > login > ???-edição > página planta
 _bol_
 
 início > login > ???-edição > página planta
+
+##Páginas utilizadas
+
+	início
+	> etiquetas
+	> resultados
+	> login-p > painel inicial
+
+	etiquetas
+	> resultados
+
+	resultados da busca
+	> termo legal > ficha da planta
+
+	ficha da planta
+	> sugestão > confirmação
+	> login-e > edição
+
+	painel inicial
+	> lista de publicadas > ficha de edição > ficha da planta
