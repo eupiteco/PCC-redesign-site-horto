@@ -10,7 +10,7 @@ O grid não tem a função de encaixar todas os elementos de cada página, mas s
 
 Para a construção do grid, dos _wireframes_ e dos protótipos de baixa fidelidade para testes de usabilidade foi utilizado o _software_ Pencil, desenvolvido e distribuído sob os termos da _GNU Public License version 2_ (http://www.gnu.org/licenses/gpl-2.0.html <++> incluir na bib), caracterizando-o como _software_ livre.
 
-![arq-info-img](../tex/images/esqueletos/grid.png "Grid proposto <++descrição>")
+![arq-info-img](../tex/images/esqueletos/grid.png "Grid proposto <++descrição>")SEM IMAGEM AINDA
 ## Páginas para o usuário final
 
 ++Incluir prints de outras verãos do esqueleto
@@ -33,13 +33,13 @@ A página inicial é composta por três áreas distintas, ferramentas de busca, 
 
 O modelo _artigo_ será utilizado para comportar textos longos como **sobre o HOrto** e **uso seguro de plantas**. Ele é composto de um tótulo destacado, um botão para download em PDF do artigo, o corpo de texto e imagens e uma sessão com as referências citadas e eventuais _links_ para as mesmas.
 
-![arq-info-img](../wireframes/v3/pages/artigo.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/artigo.png "Layout de baixa fidelidade do modelo de artigo.")
 
 ### Etiquetas
 
 o modelo de _etiquetas_ irá organizar as listas de **usos populares** e **ações medicinais**. As etiquetas com as palavras-chave ficarão dispostas em ordem alfabética e separadas por linhas horizontais de acordo com a letra inicial, um alfabeto no topo da página auxiliará na navegação. Cada etiqueta levará a uma lista com as plantas marcada com a palavra-chave contida.
 
-![arq-info-img](../wireframes/v3/pages/etiquetas.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/etiquetas.png "Layout de baixa fidelidade da lista de etiquetas.")
 
 ### Resultado das buscas
 
@@ -52,13 +52,13 @@ No topo da tela há um campo para novas bucas e opções para busca avançada. O
 
 O modelo _erro na busca_ é utilizado para situações em que a busca textual não retorna resultados. Ela apresenta uma mensagem no topo alertando sobre o erro; abaixo estão um campo de busca com opções avançadas e _links_ para as listas de usos populares, ações medicinais e plantas para o usuário poder tentar uma nova busca.
 
-![arq-info-img](../wireframes/v3/pages/erro_busca.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/erro_busca.png "Layout de baixa fidelidade do erro na busca.")
 
 ### Termo legal
 
 Esta tela aparecerá sempre que o usuário acessar uma _ficha de planta_. Ele contém um texto isentando o Horto legalmente do uso indevido de plantas medicinais. Para diversas pesquisas recorrentes em um único uso, uma caixa pode ser marcada para que essa mensagem não seja mostrada até o final do acesso ao _site_.
 
-![arq-info-img](../wireframes/v3/pages/termo_legal.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/termo_legal.png "Layout de baixa fidelidade do termo legal.")
 
 ### Ficha de planta
 
@@ -70,9 +70,9 @@ A _ficha de planta_ está dividida em informações para identificação da plan
 
 O formulário de sugestão tem a função de ser um canal de colaboração dos usuários para manter o _site_ sempre atualizado. Para identificação do usuário é pedido nome, email e profissão; uma lista de botões de opção permite o usuário indicar sobre qual informação é a sua contribuição, que é descrita em um campo de texto. Também há um campo não obeigatório de anexo de arquivos.
 
-![arq-info-img](../wireframes/v3/pages/sugesto.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/sugesto.png "Layout de baixa fidelidade do formulário de sugestão.")
 
-![arq-info-img](../wireframes/v3/pages/confirmao_sugesto.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/confirmao_sugesto.png "Layout de baixa fidelidade da confirmação de envio da sugestão.")
 
 ## Ferramentas administrativas
 
@@ -84,16 +84,16 @@ Como elemento fixo das ferramentas administrativas há um menu lateral com _link
 
 O _painel administrativo_ é acessado a partir do _login_ no segundo cabeçalho das páginas para o suário final, funcionando com página inicial das ferramentas administrativas. Na parte superior há botões para as ações mais recorrentes de adicionar e editar artigos ou fichas de planta. Em seguida está uma lista com as plantas recentemente atualizadas na forma de _cards_ semelhantes aos _resultados da busca_.
 
-![arq-info-img](../wireframes/v3/pages/painel_administrativo.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/painel_administrativo.png "Layout de baixa fidelidade do painel administrativo.")
 
 ### Lista de plantas publicadas
 
 Esta página é acessada a partir do _painel administrativo_ através do botão "editar planta" ou do _link_ "Plantas" no menu lateral. Ela consiste de uma tabela com os nomes científicos das plantas publicadas e a data em que foi realizada a última alteração. A coluna de nomes funciona como _link_ para aspáginas de edição das respectivas plantas.
 
-![arq-info-img](../wireframes/v3/pages/lista_edio.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/lista_edio.png "Layout de baixa fidelidade das plantas publicadas.")
 
 ### Edição da ficha de planta
 
 A _edição da ficha de planta_ é um formulário com um campo editável para cada um dos itens presentes no modelo _ficha de planta_, ela pode ser acessada a partir da _lista de plantas publicadas_ ou pelo link para edição presente na páginas de _ficha de planta_. Os campos editáveis estão separados em identificação da planta, informações para uso pessoal e informações para uso profissional, isto ajuda a encontrar a informação que deseja editar com mais facilidade. Ao final de cada uma das três áreas há um botão que confirma e publica as alterações realizadas, assim ele está sempre aparente facilitando edições rápidas e pontuais. 
 
-![arq-info-img](../wireframes/v3/pages/edio_planta.png "Layout de baixa fidelidade da ficha da planta.")
+![arq-info-img](../wireframes/v3/pages/edio_planta.png "Layout de baixa fidelidade da edição da ficha de planta.")
