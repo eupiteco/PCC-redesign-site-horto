@@ -3,7 +3,7 @@
 - Oq são os testes
 Antes de iniciar a etapa final do projeto, o plano de superfície, foram realizados testes de usabilidade para validar a disposição dos _layouts_ no plano de esqueleto com usuários em potencial do site. Para estes testes as situações hipotéticas apresentadas no item XX jornadas de usuário foram adapatadas a um formato de narrativa para ajudar na imersão das pessoas nas situações apresentadas. As telas também foram reformuladas para aproximar-se mais de uma página _web_ esteticamente; em diálogo com a orientadora do projeto, entendeu-se a importância dessa reformulação para que a estética dos _wireframes_ não se tornasse um ruído durante os testes.
 
-IMG-TELAS-ATUALIZADAS
+![arq-info-img](../wireframes/testes-v1/img-telas.png "Algumas das telas utilizadas nos testes de usabilidade")
 
 ## Seleção dos participantes
 Participaram dos testes 4 pessoas dos diferentes públicos-alvo: grupo pessoal grupo profissional e administradores. Duas pessoas estudantes da área da saúde, sendo uma atualmente co-responsável pela atualização das informações no _site_ atual do Horto Medicinal, uma pessoa estudante de engenharia e uma professora da área da saúde e corresponsável pela atualização das informações no _site_. Duas pessoas na faixa etária de 18 a 24 anos, uma entre 25 e 32 anos e uma entre 41 e 55 anos. Três homens e uma mulher. Usuários de diferentes públicos-alvo realizaram testes diferentes. Para facilitação dos testes o autor atuou sozinho cumprindo todas as funções necessárias.
