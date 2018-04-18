@@ -5,14 +5,18 @@ Antes de iniciar a etapa final do projeto, o plano de superfície, foram realiza
 ![arq-info-img](../wireframes/testes-v1/img-telas.png "Algumas das telas utilizadas nos testes de usabilidade")
 
 ## Seleção dos participantes
-Participaram dos testes 4 pessoas dos diferentes públicos-alvo: grupo pessoal grupo profissional e administradores. Duas pessoas estudantes da área da saúde, sendo uma atualmente co-responsável pela atualização das informações no _site_ atual do Horto Medicinal, uma pessoa estudante de engenharia e uma professora da área da saúde e corresponsável pela atualização das informações no _site_. Duas pessoas na faixa etária de 18 a 24 anos, uma entre 25 e 32 anos e uma entre 41 e 55 anos. Três homens e uma mulher. Usuários de diferentes públicos-alvo realizaram testes diferentes. Para facilitação dos testes o autor atuou sozinho cumprindo todas as funções necessárias.
 
+A seleção de participantes ocorreu de forma que se encontrasse ao menos uma pessoa que se aproximasse de cada perfil criado na sessão XX Personas, ainda assim houve algumas variações. No total foram quatro participantes contemplando os três diferentes públicos-alvo: grupo pessoal grupo profissional e administradores. A persona XX, Márcia, foi representada por uma mulher, professora universitária da faixa etária de 41 a 55 anos. A persona XX, Fernanda, foi representada por um homem estudante das fases finais de medicina com idade entre 25 e 32 anos. A persona XX, (ADMIN_NOME), foi representada por um homem estudante de farmácia, atual corresponsável pela atualização das informações do _site_ do Horto Medicinal com idade entre 25 e 32 anos. Também realizou-se testes com um homem estudante de engenharia e idade entre 18 e 24 anos que, apesar de não se encaixar em nenhuma das personas, contempla o público-alvo de uso pessoal das plantas.
+
+## Preparação dos testes
+
+Para facilitação dos testes, o autor cumpriu as funções necessárias: disponibilizar o equipamento, orientar o usuário, ler a narrativa de cada uma das tarefas, 
 
 ## Descrição das tarefas
 
 ### Buscar uma planta a partir de sintomas - grupo pessoal
 
-Este teste foi realizado com as 4 pessoas por entender que todas fazem uso pessoal independentemente de outros usos do _site_. A tarefa consistia em encontrar uma planta a partir de sintomas característicos de gripe. Todas as pessoas completaram a tarefa sem maiores dificuldades. Uma acessou a lista de usos populares, duas acessaram a lista de plantas e uma acessou o campo de busca. Todas descreveram os termos utilizados para as listas como confusos ou imprecisos, foi proposta uma alteração para _lista de sintomas_ e _lista de usos_.
+Este teste foi realizado com as quatro pessoas por entender que todas fazem uso pessoal independentemente de outros usos do _site_. A tarefa consistia em encontrar uma planta a partir de sintomas característicos de gripe. Todas as pessoas completaram a tarefa sem maiores dificuldades. Uma acessou a lista de usos populares, duas acessaram a lista de plantas e uma acessou o campo de busca. Todas descreveram os termos utilizados para as listas como confusos ou imprecisos, foi proposta uma alteração para _lista de sintomas_ e _lista de usos_.
 
 ### Enviar uma sugestão através do formulário - grupo profissional
 
