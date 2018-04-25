@@ -10,7 +10,7 @@ A seleção de participantes ocorreu de forma que se encontrasse ao menos uma pe
 
 ## Preparação dos testes
 
-Para facilitação dos testes, o autor cumpriu as funções necessárias: disponibilizar o equipamento, orientar o usuário, ler a narrativa de cada uma das tarefas, 
+Para facilitação dos testes, o autor cumpriu as funções necessárias: disponibilizar o equipamento, orientar o usuário, ler a narrativa de cada uma das tarefas e coletar os comentários e avaliação do usuário após os testes. Os testes foram realizados na biblioteca universitária e em um laboratório do Centro de Ciências da Saúde. Como equipamento, o autor disponivbilizou notebook próprio e uma mouse, desabilitando o trackpad do computador. Todas as orientações aos usuários foram dadas antes dos testes, durante os quais o facilitador se manteve em silêncio até que o usuário completasse a tarefa ou indicasse que não conseguia realizá-la.
 
 ## Descrição das tarefas
 
@@ -26,7 +26,7 @@ Esta tarefa foi realizada pelas pessoas que são estudantes ou profisisonais da 
 
 Esta tarefa foi proposta às pessoas corresponsáveis pela atualização das informações no _site_ do horto. Pediu-se aos usuários que acessacem o painel administrativo do site e editassem a ficha de uma planta. Todas as pessoas puderam completar a tarefa sem dificuldades.
 
-## Comentários e observações (Que nome colocar??)
+## Alterações necessárias
 
 Após realizadas as tarefas o facilitador dialogou com os usuários coletando comentários e também registrou algumas alterações necessárias após observar terceiros interagindo com a página. A lista a seguir resume as alterações necessárias de forma semelhante à descrita na seção XX plano de escopo
 
