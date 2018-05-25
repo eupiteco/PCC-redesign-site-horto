@@ -57,13 +57,13 @@ Em c[garret02] o plano de esqueleto é descrito como a etapa em que traduzimos o
 
 ## Grid
 
+![arq-info-img](../wireframes/grid.png "Grid para construção dos esqueletos.")
+
 Para iniciar a estruturação do _layout_, foi criado um grid com 1280px de largura, 12 colunas de 92px (7,18%) e _gutter_ de 16px (1,25%). Este grid se adapta de forma proporcional em telas menores e mantém a largura de 1280px em telas maiores. Idealmente este _layout_ funciona em telas com largura mínima de 768px, para dispositivos mais estreitos é necessário desenvolver um grid específico com colunas e medidas diferenciadas. Conforme mencionado no item ref[delimitacoes], este trabalho não tem a intenção de desenvolver uma versão para dispositivos com telas mais estreitas que 768px. Para este trabalho serão estruturadas a página inicial, os resultados das buscas e a ficha de plantas por entender que são os itens mais importantes e mais complexos do _site_.
 
 O grid não tem a função de encaixar todas os elementos de cada página, mas sim de auxiliar na criação de _layouts_ com diferentes números de colunas e elementos com a largura padronizada. Elementos podem estar alinhados apenas à esquerda ou a direita, alinhados com o centro da página e estar alinhados com margens em relação às colunas do grid.
 
 Para a construção do grid, dos _wireframes_ e dos protótipos de baixa fidelidade para testes de usabilidade foi utilizado o _software_ Pencil, desenvolvido e distribuído sob os termos da _GNU Public License version 2_ (http://www.gnu.org/licenses/gpl-2.0.html <++> incluir na bib), caracterizando-o como _software_ livre.
-
-![arq-info-img](../wireframes/grid.png "Grid para construção dos esqueletos.")
 
 ## Páginas para o usuário final
 
@@ -77,54 +77,56 @@ O rodapé contém uma logo da UFSC que leva à sua página principal, um mapa do
 
 ### Página inicial
 
-A página inicial é composta por três áreas distintas, ferramentas de busca, resumo sobre o Horto e contato. Nas ferramentas de busca há um campo textual destacado e _links_ auxiliares que levam às listas de plantas, usos populares e ações medicinais. Em seguida, o resumo sobre o horto é constituído por uma foto que ocupa toda a largura da tela com um resumo e um link para o artigo **Sobre o horto**. Por fim, o contato é composto por um _link_ para a rede social do Horto e outro para o endereço de email.
-
 ![arq-info-img](../wireframes/v3/pages/inicio.png "Layout de baixa fidelidade da página inicial.") l[wire-inicio]
+
+A página inicial é composta por três áreas distintas, ferramentas de busca, resumo sobre o Horto e contato. Nas ferramentas de busca há um campo textual destacado e _links_ auxiliares que levam às listas de plantas, usos populares e ações medicinais. Em seguida, o resumo sobre o horto é constituído por uma foto que ocupa toda a largura da tela com um resumo e um link para o artigo **Sobre o horto**. Por fim, o contato é composto por um _link_ para a rede social do Horto e outro para o endereço de email.
 
 ### Artigo
 
-O modelo _artigo_ será utilizado para comportar textos longos como **sobre o Horto** e **uso seguro de plantas**. Ele é composto de um rótulo destacado, um botão para download em PDF do artigo, o corpo de texto e imagens e uma sessão com as referências citadas e eventuais _links_ para as mesmas.
-
 ![arq-info-img](../wireframes/v3/pages/artigo.png "Layout de baixa fidelidade do modelo de artigo.")
+
+O modelo _artigo_ será utilizado para comportar textos longos como **sobre o Horto** e **uso seguro de plantas**. Ele é composto de um rótulo destacado, um botão para download em PDF do artigo, o corpo de texto e imagens e uma sessão com as referências citadas e eventuais _links_ para as mesmas.
 
 ### Etiquetas
 
-o modelo de _etiquetas_ irá organizar as listas de **usos populares** e **ações medicinais**. As etiquetas com as palavras-chave ficarão dispostas em ordem alfabética e separadas por linhas horizontais de acordo com a letra inicial, um alfabeto no topo da página auxiliará na navegação. Cada etiqueta levará a uma lista com as plantas marcada com a palavra-chave contida.
-
 ![arq-info-img](../wireframes/v3/pages/etiquetas.png "Layout de baixa fidelidade da lista de etiquetas.")
 
+o modelo de _etiquetas_ irá organizar as listas de **usos populares** e **ações medicinais**. As etiquetas com as palavras-chave ficarão dispostas em ordem alfabética e separadas por linhas horizontais de acordo com a letra inicial, um alfabeto no topo da página auxiliará na navegação. Cada etiqueta levará a uma lista com as plantas marcada com a palavra-chave contida.
+
 ### Resultado das buscas
+
+![arq-info-img](../wireframes/v3/pages/resultados_busca.png "Layout de baixa fidelidade dos resultados da busca.")
 
 O _resultado das buscas_ pode ser acessado de três diferentes formas, a partir de uma busca textual, de uma etiqueta ou do link para a **lista de plantas**. Nos dois primeiros casos, os resultados são filtrados pelo termo buscado ou pela etiqueta, no terceiro todas as plantas cadastradas são listadas.
 No topo da tela há um campo para novas buscas e opções para busca avançada. Os resultados são mostrados em _cards_ com uma foto, nome científico, nomes populares, usos populares, ações medicinais e data da última atualização desta informação.
 
-![arq-info-img](../wireframes/v3/pages/resultados_busca.png "Layout de baixa fidelidade dos resultados da busca.")
-
 ### Erro na busca
 
-O modelo _erro na busca_ é utilizado para situações em que a busca textual não retorna resultados. Ela apresenta uma mensagem no topo alertando sobre o erro; abaixo estão um campo de busca com opções avançadas e _links_ para as listas de usos populares, ações medicinais e plantas para o usuário poder tentar uma nova busca.
-
 ![arq-info-img](../wireframes/v3/pages/erro_busca.png "Layout de baixa fidelidade do erro na busca.")
+
+O modelo _erro na busca_ é utilizado para situações em que a busca textual não retorna resultados. Ela apresenta uma mensagem no topo alertando sobre o erro; abaixo estão um campo de busca com opções avançadas e _links_ para as listas de usos populares, ações medicinais e plantas para o usuário poder tentar uma nova busca.
 
 ### Termo legal
 
 Esta tela aparecerá sempre que o usuário acessar uma _ficha de planta_. Ele contém um texto isentando o Horto legalmente do uso indevido de plantas medicinais. Para diversas pesquisas recorrentes em um único uso, uma caixa pode ser marcada para que essa mensagem não seja mostrada até o final do acesso ao _site_.
-
-![arq-info-img](../wireframes/v3/pages/termo_legal.png "Layout de baixa fidelidade do termo legal.")
+ 
+ UMA IMAGEM AQUI SR POR FAVOR?
 
 ### Ficha de planta
 
-A _ficha de planta_ está dividida em informações para identificação da planta, informações para uso pessoal e informações para uso profissional. Na área de identificação da planta, a organização e o conteúdo se assemelham bastante aos _cards_ do _resultado das buscas_, funcionando como uma confirmação visual de que a ficha acessada corresponde à planta desejada; as diferenças são adição de mais fotos da planta que podem ser acessadas em um sistema de _slides_, o acréscimo de um pequeno texto com a descrição botânica das plantas e um _link_ para editar a ficha da planta; este _link_ leva a uma tela de _login_ caso o usuário ainda não tenha se identificado como administrador. As áreas de informação pessoal e profissional estão organizadas em diferentes tópicos que podem ser expandidos revelando o seu conteúdo, este sistema facilita a navegação na tela pois permite ver mais tópicos de uma só vez.
-
 ![arq-info-img](../wireframes/v3/pages/ficha_da_planta.png "Layout de baixa fidelidade da ficha da planta.")
+
+A _ficha de planta_ está dividida em informações para identificação da planta, informações para uso pessoal e informações para uso profissional. Na área de identificação da planta, a organização e o conteúdo se assemelham bastante aos _cards_ do _resultado das buscas_, funcionando como uma confirmação visual de que a ficha acessada corresponde à planta desejada; as diferenças são adição de mais fotos da planta que podem ser acessadas em um sistema de _slides_, o acréscimo de um pequeno texto com a descrição botânica das plantas e um _link_ para editar a ficha da planta; este _link_ leva a uma tela de _login_ caso o usuário ainda não tenha se identificado como administrador. As áreas de informação pessoal e profissional estão organizadas em diferentes tópicos que podem ser expandidos revelando o seu conteúdo, este sistema facilita a navegação na tela pois permite ver mais tópicos de uma só vez.
 
 ### Sugestão
 
-O formulário de sugestão tem a função de ser um canal de colaboração dos usuários para manter o _site_ sempre atualizado. Para identificação do usuário é pedido nome, email e profissão; uma lista de botões de opção permite o usuário indicar sobre qual informação é a sua contribuição, que é descrita em um campo de texto. Também há um campo não obrigatório de anexo de arquivos.
-
 ![arq-info-img](../wireframes/v3/pages/sugesto.png "Layout de baixa fidelidade do formulário de sugestão.")
 
+O formulário de sugestão tem a função de ser um canal de colaboração dos usuários para manter o _site_ sempre atualizado. Para identificação do usuário é pedido nome, email e profissão; uma lista de botões de opção permite o usuário indicar sobre qual informação é a sua contribuição, que é descrita em um campo de texto. Também há um campo não obrigatório de anexo de arquivos.
+
 ![arq-info-img](../wireframes/v3/pages/confirmao_sugesto.png "Layout de baixa fidelidade da confirmação de envio da sugestão.")
+
+Para uma responsividade adequada, uma mensagem de confirmação é enviada ao usuário após o envio bem sucedido de um formulário.
 
 ## Ferramentas administrativas
 
@@ -134,21 +136,22 @@ Como elemento fixo das ferramentas administrativas há um menu lateral com _link
 
 ### Painel administrativo
 
-O _painel administrativo_ é acessado a partir do _login_ no segundo cabeçalho das páginas para o suário final, funcionando com página inicial das ferramentas administrativas. Na parte superior há botões para as ações mais recorrentes de adicionar e editar artigos ou fichas de planta. Em seguida está uma lista com as plantas recentemente atualizadas na forma de _cards_ semelhantes aos _resultados da busca_.
-
 ![arq-info-img](../wireframes/v3/pages/painel_administrativo.png "Layout de baixa fidelidade do painel administrativo.")
+
+O _painel administrativo_ é acessado a partir do _login_ no segundo cabeçalho das páginas para o suário final, funcionando com página inicial das ferramentas administrativas. Na parte superior há botões para as ações mais recorrentes de adicionar e editar artigos ou fichas de planta. Em seguida está uma lista com as plantas recentemente atualizadas na forma de _cards_ semelhantes aos _resultados da busca_.
 
 ### Lista de plantas publicadas
 
-Esta página é acessada a partir do _painel administrativo_ através do botão "editar planta" ou do _link_ "Plantas" no menu lateral. Ela consiste de uma tabela com os nomes científicos das plantas publicadas e a data em que foi realizada a última alteração. A coluna de nomes funciona como _link_ para as páginas de edição das respectivas plantas.
-
 ![arq-info-img](../wireframes/v3/pages/lista_edio.png "Layout de baixa fidelidade das plantas publicadas.")
+
+Esta página é acessada a partir do _painel administrativo_ através do botão "editar planta" ou do _link_ "Plantas" no menu lateral. Ela consiste de uma tabela com os nomes científicos das plantas publicadas e a data em que foi realizada a última alteração. A coluna de nomes funciona como _link_ para as páginas de edição das respectivas plantas.
 
 ### Edição da ficha de planta
 
+![arq-info-img](../wireframes/v3/pages/edio_planta.png "Layout de baixa fidelidade da edição da ficha de planta.")
+
 A _edição da ficha de planta_ é um formulário com um campo editável para cada um dos itens presentes no modelo _ficha de planta_, ela pode ser acessada a partir da _lista de plantas publicadas_ ou pelo link para edição presente na páginas de _ficha de planta_. Os campos editáveis estão separados em identificação da planta, informações para uso pessoal e informações para uso profissional, isto ajuda a encontrar a informação que deseja editar com mais facilidade. Ao final de cada uma das três áreas há um botão que confirma e publica as alterações realizadas, assim ele está sempre aparente facilitando edições rápidas e pontuais. 
 
-![arq-info-img](../wireframes/v3/pages/edio_planta.png "Layout de baixa fidelidade da edição da ficha de planta.")
 # Testes de usabilidade
 
 Antes de iniciar a etapa final do projeto, o plano de superfície, foram realizados testes de usabilidade para validar a disposição dos _layouts_ no plano de esqueleto com usuários em potencial do site. Para estes testes as situações hipotéticas apresentadas no item XX jornadas de usuário foram adaptadas a um formato de narrativa para ajudar na imersão das pessoas nas situações apresentadas. As telas também foram reformuladas para aproximar-se mais de uma página _web_ esteticamente; em diálogo com a orientadora do projeto, entendeu-se a importância dessa reformulação para que a estética dos _wireframes_ não se tornasse um ruído durante os testes.
@@ -173,13 +176,14 @@ Esta tarefa foi realizada pelas pessoas que são estudantes ou profissionais da 
 
 Esta tarefa foi proposta às pessoas corresponsáveis pela atualização das informações no _site_ do horto. Pediu-se aos usuários que acessarem o painel administrativo do site e editassem a ficha de uma planta. Todas as pessoas puderam completar a tarefa sem dificuldades.
 
-## Comentários e observações (Que nome colocar??)
+## Análise dos resultados
 
 Após realizadas as tarefas o facilitador dialogou com os usuários coletando comentários e também registrou algumas alterações necessárias após observar terceiros interagindo com a página. A lista a seguir resume as alterações necessárias de forma semelhante à descrita na seção XX plano de escopo
 
 * Incluir no menu superior um link ou botão explícito para a página inicial.
 * Reduzir a altura do menu superior pois estava ocupando espaço dos conteúdos específicos de cada página e dificultando sua visualização.
 * Inclusão de ícones para indicar o nível de estudos disponíveis para cada planta, Tanto para a quantidade de informação disponível quanto para indicar se foram obtidas com testes _in vitro_, em animais ou em humanos.
+
 # Plano de superfície l[plano-de-superficie] 
 
 c[garret02] define o plano de superfície como a etapa em que estética e funcionalidade se unem para produzir um _design_ que agrada os sentidos enquanto alcança os objetivos de todos os planos anteriores. Nesta etapa será desenvolvido o protótipo de alta fidelidade do _site_, definindo as cores, as formas e a tipografia fazendo o acabamento estético dos _wireframes_. Como as páginas todas foram apresentadas no capítulo r[plano-de-esqueleto] Plano de esqueleto, será feita descrição apenas da página inicial uma vez que foi alterada significativamente após os testes de usabilidade. Os demais elementos gráficos serão apresentados em um guia de estilos.
@@ -199,7 +203,9 @@ Com o intuito de criar unidade e diferenciar o _site_ criou-se um padrão para a
 
 ![arq-info-img](img/superficie/menu-img.png "Versão final do menu superior")l[menu-img]
 
-No menu superior a logo do Horto Medicinal foi reposicionado na mesma linha dos demais elementos para reduzir a sua altura. A cor de fundo foi trocada pois o contraste com o azul da barra superior estava muito exaustivo; para manter a divisão entre este elemento e o resto do conteúdo foi utilizada uma linha de dois _pixels_ na borda inferior. Por fim a opção de uso seguro foi separada dos demais elementos pois o seu destaque estava se confundindo com um indicador da página em que o usuário se encontrava, dificultando a navegação.
+No menu superior a logo do Horto Medicinal foi reposicionado na mesma linha dos demais elementos para reduzir a sua altura. A cor de fundo foi trocada pois o contraste com o azul da barra superior estava muito exaustivo (ver figura r[contraste-menu-img]). Para manter a divisão entre este elemento e o resto do conteúdo foi utilizada uma linha de dois _pixels_ na borda inferior. Por fim a opção de uso seguro foi separada dos demais elementos pois o seu destaque estava se confundindo com um indicador da página em que o usuário se encontrava, dificultando a navegação.
+
+![arq-info-img](img/superficie/contraste-menu-img.png "Versão final do menu superior")l[contraste-menu-img]
 
 ### Página inicial l[sup-pag-inicial]
 
