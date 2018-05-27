@@ -63,15 +63,13 @@ Para iniciar a estruturação do _layout_, foi criado um grid com 1280px de larg
 
 O grid não tem a função de encaixar todas os elementos de cada página, mas sim de auxiliar na criação de _layouts_ com diferentes números de colunas e elementos com a largura padronizada. Elementos podem estar alinhados apenas à esquerda ou a direita, alinhados com o centro da página e estar alinhados com margens em relação às colunas do grid.
 
-Para a construção do grid, dos _wireframes_ e dos protótipos de baixa fidelidade para testes de usabilidade foi utilizado o _software_ Pencil, desenvolvido e distribuído sob os termos da _GNU Public License version 2_ (http://www.gnu.org/licenses/gpl-2.0.html <++> incluir na bib), caracterizando-o como _software_ livre.
-
 ## Páginas para o usuário final
 
 ### Elementos fixos
 
 As páginas serão compostas por dois cabeçalhos e um rodapé fixos e corpos de conteúdo diferentes em cada tela. 
 
-O primeiro cabeçalho é o cabeçalho padrão do _site_ da UFSC, como o horto está vinculado à universidade e estará dentro do domínio .ufsc.br, entendeu-se necessária a inclusão deste cabeçalho. O segundo cabeçalho contém a logo do horto na primeira linha e o menu principal na segunda. A logo  leva sempre à página inicial. O primeiro item do menu, uso seguro de plantas, fica destacado pois é uma seção bastante referenciada nas fichas de plantas e <++> contém informações importantes para o usuário, principalmente o público que faz uso pessoal de plantas medicinais. O ícone de busca à direita expande para um campo de busca; quando não há outro campo de busca no corpo da página, o campo do ícone fica expandido por padrão.
+O primeiro cabeçalho é o cabeçalho padrão do _site_ da UFSC, como o horto está vinculado à universidade e estará dentro do domínio .ufsc.br, entendeu-se necessária a inclusão deste cabeçalho. O segundo cabeçalho contém a logo do horto na primeira linha e o menu principal na segunda. A logo  leva sempre à página inicial. O primeiro item do menu, uso seguro de plantas, fica destacado pois é uma seção bastante referenciada nas fichas de plantas e contém informações importantes para o usuário, principalmente o público que faz uso pessoal de plantas medicinais. O ícone de busca à direita expande para um campo de busca; quando não há outro campo de busca no corpo da página, o campo do ícone fica expandido por padrão.
 
 O rodapé contém uma logo da UFSC que leva à sua página principal, um mapa do _site_ e informações para contato.
 
@@ -187,7 +185,7 @@ Após realizadas as tarefas o facilitador dialogou com os usuários coletando co
 # Plano de superfície l[plano-de-superficie] 
 
 c[garret02] define o plano de superfície como a etapa em que estética e funcionalidade se unem para produzir um _design_ que agrada os sentidos enquanto alcança os objetivos de todos os planos anteriores. Nesta etapa será desenvolvido o protótipo de alta fidelidade do _site_, definindo as cores, as formas e a tipografia fazendo o acabamento estético dos _wireframes_. Como as páginas todas foram apresentadas no capítulo r[plano-de-esqueleto] Plano de esqueleto, será feita descrição apenas da página inicial uma vez que foi alterada significativamente após os testes de usabilidade. Os demais elementos gráficos serão apresentados em um guia de estilos.
-O site em sua versão final com todas as telas pode ser encontrado no apêndice <++>.
+O site em sua versão final com todas as telas pode ser encontrado no apêndice inter.
 
 ## Telas l[sup-telas]
 
@@ -268,6 +266,53 @@ As tabelas foram utilizadas na área administrativa para organizar informações
 
 ![arq-info-img](img/superficie/forms-img.png "Formulário de envio de sugestão")l[forms-img]
 Os elementos de formulário foram utilizados para compor a página de sugestões, as opções de busca avançada e a página de edição das fichas de planta. Os elementos estilizados foram as legendas, os campos de texto e os botões de rádio, os demais elementos serão alterados de acordo com as preferências do sistema operacional do usuário. Os campos de texto tiveram os cantos arredondados de acordo com o padrão de folha e as margens internas foram ampliadas para facilitar a legibilidade, quando selecionado pelo usuário a borda e a sombra das caixas alteram para a cor destaque. Os botões de rádio ficaram com a cor de destaque na borda, fundo branco e um tom escuro da cor destaque na seleção.
+
+# Considerações finais
+
+## O projeto
+
+Ao concluir este projeto e revisá-lo desde o seu início é possível afirmar que os objetivos geral e específicos foram cumpridos. Foram produzidos, como proposto, estrutura, _layout_ e guia de estilos para um novo _site_ do Horto Medicinal. Também é possível observar que, mesmo com todas as etapas cumpridas, alguns itens previstos nas etapas iniciais não foram contemplados nas etapas finais mas que estas revelaram necessidades que não estavam presentes no início do projeto.
+
+Ainda com todos os objetivos cumpridos de forma adequada, esta é apenas uma das etapas no desenvolvimento e implementação de um _website_, que também necessita do desenvolvimento do conteúdo, da etapa de programação de de hospedagem. No caso do Horto Medicinal o conteúdo já existe, necessitando apenas de revisão das informações; a hospedagem já acontece em um servidor e domínio da própria UFSC. O passo seguinte para este projeto, na visão do autor, é escolher um gerenciador de conteúdo que se adeque às necessidades levantadas nos capítulos r[plano-de-estrategia] Plano de estratégia e r[plano-de-escopo] Plano de escopo e realizar programação necessária para colocar o conteúdo do _site_ atual na estrutura criada neste projeto através co gerenciador de conteúdo escolhido.
+
+Dentro do que é pertinente à etapa de estruturação e _layout_, realizada neste projeto, alguns itens ainda necessitam ser contemplados para a complementação do _site_:
+
+* Finalização das páginas de erro na busca previstas no capítulo r[plano-de-esqueleto] Plano de esqueleto.
+
+* Desenvolvimento de um _layout_ para dispositivos móveis com menos de 768 _pixels_ de largura.
+
+* Implementação de mecanismos que ampliem a acessibilidade do _site_ de acordo com as Diretrizes de Acessibilidade para Conteúdo Web (W3C Brazil Office, 2014)https://www.w3.org/Translations/WCAG20-pt-br/ <++> Colocar na bibliografia
+
+* Novos testes de usabilidade após a inserção do conteúdo e eventuais adequações advindas dos resultados destes testes.
+
+## Uso de software livre
+
+Um dos objetivos específicos deste trabalho é pesquisar e documentar _softwares_ livres que permitam realizar as tarefas necessárias à conclusão do projeto. Nesta sessão serão abordados os programas utilizados, suas pissibilidades e barreiras e alternativas que foram pesquisadas para a realização de tarefas. O projeto inteiro foi realizado com _softwares_ livres, sem que fosse necessário recorrer a alternativas de código aberto não-livres ou proprietárias.
+
+Este projeto foi realizado no sistema operacional Ubuntu 16.04, uma distribuição de GNU/Linux criada em 2004 com o intuito de ser uma distribuição GNU/Linux composta inteiramente com _software_ livre, gratuita e com uma interface amigável para a realização tanto de tarefas do dia-a-dia quanto para necessidades específicas de produção gráfica, programação, gerenciamento de servidores etc. https://www.ubuntu.com/about <++> bib. Atualmente o Ubuntu conta com uma série de variações e sistemas operacionais derivados que também poderiam ter sido utilizados para este projeto como: Ubuntu MATE, Ubuntu Budgie, Mint e ElementaryOS.
+
+![arq-info-img](img/finais/oss.png "Capturas de tela de diversos sistemas operacionais livres baseados em Ubuntu") l[oss-img]
+
+Os diagramas de estrutura foram criados com o _software_ para criação de esquemas e diagramas __Dia__, os esqueletos com o criador de _wireframes_ __Pencil Project__, para os testes de usabilidade foi utilizado o _software_ de criação gráfica vetorial __Inkscape__, a etapa de sueprfície foi desenvolvida diretamente em _html_ e _css_ pois o autor já possuia conhecimento e prática com estas tecnologias. 
+
+O _software_ __Dia__ é bastante eficiente para a criação de diversoso tipos de diagramas e mapas de fluxo. Ele possui uma dinâmica de uso bastante particular mas que foi aprendida com facilidade logo no primeiro uso. Possui diversas bibliotecas com formas e ícones prontos e também permite a criação de novas formas. Também é possível exportar os diagramas para diversos formator de imagem e vetor.
+
+O programa __Pencil Project__ possui uma interface simples e eficiente. Ele possui bibliotecas de elementos gráficos para protótipos de aplicativos tanto para computadores quanto para dispositivo móveis. Para _web_ possui apenas uma biblioteca de elementos simples que podem ser vistos nas imagens da sessão r[plano-de-esqueleto] Plano de esqueleto e a importação de novos elementos gráficos não é suportada oficialmente pelo _software_ apesar de o autor ter encontrado em pesquisas formas de fazê-lo. Mesmo estando na versão 3.0 na finalização deste trabalho, o programa ainda apresentava alguns _bugs_ principalmente em relação ao alinhamento e posicionamento dos elementos. Um ponto positivo deste software é exportar protótipos interativos em diversos formatos. Neste trabalho foram exportadas páginas HTML funcionais ligadas entre si.
+
+![arq-info-img](img/finais/dia-pencil.png "Janelas dos softwares Dia, à esquerda, e Pencil Project Project à direita.")l[dia-pencilimg]
+
+Devido à limitação estética do __Pencil Project__ e à necessidade de protótipos mais finalizados para os testes de usuário, as telas foram recriadas no _software_ __Inkscape__ a partir das imagens dos esqueletos. Como o __Inkscape__ trabalha com o formato .svg, um formato universal de arquivos de vetor suportado por todos os navegadores atuais, é possível criar imagens interativas que abrem em navegadores. Ainda que não exista uma ferramenta específica para isto no programa, a ligação entre as páginas é criada com bastante facilidade a aprtir dos recuross que o programa possui. A grande desvantagem deste método é que os navegadores não suportam texto em caixas limitadas, então todos os textos necessitam ser convertidos em curvas para que apareçam da forma desejada nos testes de usabilidade.
+
+![arq-info-img](img/finais/inkscape.png "Janela do software Inkscape")l[inkscape-img]
+
+A etapa de superfície foi toda desenvolvida diretamente em HTML/CSS por produzir um protótipo mais próximo do que será o _site_ após a sua implementação e por uma experiência anterior do auto nesta área. Para isto foi utilizado o editor de textos __vim__ e os preprocessadores __pug__ para HTML e __sass__ para CSS. Outro editor de texto voltado para escrita de código, livre e com uma interface mais amigável, é o editor Atom, que poderia ser utilizado igualmente neste projeto.
+
+![arq-info-img](img/finais/vim-atom.png "Janelas dos sotwares Vim, à esquerda, e Pencil Project à direita")l[vim-atom]
+
+Para pessoas que não queiram trabalhar diretamente com HTML e CSS existem dois softwares de prototipação digital de alto nível inteiramente livres e de código aberto, Akira e Alva. Ainda estavam na fase inicial de desenvolvimento em maio de 2018 mas já podem ser baixados para testes e avaliação embora seus desenvolvedores não recomendem para uso profissional. Nesse caso a melhor alternativa encontrada foi o _software_ __Gravity Designer__, de código proprietário, com versões gratuitas para _web_, Linux, Windows e Mac que são suficientes para a criação dos protótipos.
+
+Vale mencionar também que, com exceção da etapa de superfície, as demais poderiam ter sido realizadas diretamente com __Inkscape__. As vantagens desse uso seriam aprender a usar apenas um _software_ facilitar na transição entre o esqueleto e os testes de usabilidade, pois não haveria conflitos de compactibilidade de arquivos.
+
 # Apêndice X: Versão final do site
 
 ## Área de usuário final
