@@ -8,6 +8,7 @@
 *.run.xml
 *.lof
 *.bbl
+*.blg
 *.bcf
 *.bld
 *.idx
