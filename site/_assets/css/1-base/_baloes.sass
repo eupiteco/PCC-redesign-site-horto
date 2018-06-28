@@ -1,0 +1,12 @@
+.triangle-right 
+	&:after
+		content: ""
+		position: absolute
+		bottom: -20px /* value = - border-top-width - border-bottom-width */
+		left: 0 /* controls horizontal position */
+		border-width: 20px 0 0 20px /* vary these values to change the angle of the vertex */
+		border-style: solid
+		border-color: shade($action-color, 20%) transparent
+		/* reduce the damage in FF3.0 */
+		display: block
+		width: 0

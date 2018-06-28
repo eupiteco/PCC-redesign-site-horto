@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+  margin: $small-spacing 0;
+  table-layout: fixed;
+  text-align: left;
+  width: 100%;
+}
+
+thead {
+  line-height: $heading-line-height;
+  vertical-align: bottom;
+}
+
+tbody {
+  vertical-align: top;
+}
+
+tr {
+  border-bottom: $base-border;
+  @include padding(null $small-spacing);
+  &:first-child {
+  	border-top: $base-border;
+}
+}
+
+th {
+  font-weight: 700;
+}
+
+th,
+td {
+  padding: $small-spacing $small-spacing $small-spacing 0;
+}
+

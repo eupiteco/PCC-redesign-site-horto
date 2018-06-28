@@ -1,0 +1,85 @@
+include layouts/default.pug
+include componentes/header.pug
+include mixins.pug
+
+.container#sugestao
+	.mensagem
+		.titulo: h1 Sugerir alteração em ficha de planta
+		form.texto
+			.dadosUsuario
+				p O formulário a seguir será encaminhado para a equipe do Horto que irá revisá-lo e entrar em contat através do seu endereço de e-mail.
+				.nome
+					label(for="nome") Nome:
+					input#nome(type="text")
+				.email
+					label(for="email") Email:
+					input#email(type="text")
+			.qualPlanta
+				label(for="selecionaNomeCientifico") Sobre qual planta é a sua sugestão?
+				select#selecionaNomeCientifico
+					option(value="label" selected)
+					option(value="achilleaMillefolium") Achillea millefolium
+					option(value="varroniaCurassavica") Varronia curassavica
+			.qualInfo
+				label(for="selecionaInfo") Sobre qual informação é a sua sugestão?
+				ul.infosRadio#selecionaInfo
+					li.radioinput
+						input#nomePop(type="radio" name="selecionaInfo")
+						label.check(for="nomePop")
+						label(for="nomePop") Nome Popular
+					li.radioinput
+						input#nomeCie(type="radio" name="selecionaInfo")
+						label.check(for="nomeCie")
+						label(for="nomeCie") Nome Científico
+					li.radioinput
+						input#descricaoBotanica(type="radio" name="selecionaInfo")
+						label.check(for="descricaoBotanica")
+						label(for="descricaoBotanica") Descrição Botânica
+					li.radioinput
+						input#usosPlanta(type="radio" name="selecionaInfo")
+						label.check(for="usosPlanta")
+						label(for="usosPlanta") Usos da planta
+					li.radioinput
+						input#acoesMedicinais(type="radio" name="selecionaInfo")
+						label.check(for="acoesMedicinais")
+						label(for="acoesMedicinais") Ações medicinais
+					li.radioinput
+						input#partesUsadas(type="radio" name="selecionaInfo")
+						label.check(for="partesUsadas")
+						label(for="partesUsadas") Partes Usadas
+					li.radioinput
+						input#posologia(type="radio" name="selecionaInfo")
+						label.check(for="posologia")
+						label(for="posologia") Modo de usar
+					li.radioinput
+						input#contraindicacoes(type="radio" name="selecionaInfo")
+						label.check(for="contraindicacoes")
+						label(for="contraindicacoes") Contarindicações
+					li.radioinput
+						input#obsClinica(type="radio" name="selecionaInfo")
+						label.check(for="obsClinica")
+						label(for="obsClinica") Observação clínica em Florianópolis
+					li.radioinput
+						input#infoCie(type="radio" name="selecionaInfo")
+						label.check(for="infoCie")
+						label(for="infoCie") Informações científicas
+					li.radioinput
+						input#interacoes(type="radio" name="selecionaInfo")
+						label.check(for="interacoes")
+						label(for="interacoes") Interações medicamentosas
+					li.radioinput
+						input#refs(type="radio" name="selecionaInfo")
+						label.check(for="refs")
+						label(for="refs") Referências
+			.descricaoTextual
+				label(for="mensagem") Descreva e justifique a alteração necessária de forma detalhada
+				textarea(rows="10")#mensagem
+			.upload
+				label(for="enviarArquivo") Utilize este campo para anexar arquivos caso necessário
+				input#enviarArquivo(type="file")
+		.cta
+			form.confirma
+			button(onclick="window.location.href='confirmacao.html'") Continuar
+			button(onclick="window.location.href='index.html'").cancel-btn Cancelar
+
+include componentes/footer.pug

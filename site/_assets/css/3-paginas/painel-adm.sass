@@ -1,0 +1,38 @@
+.container-adm
+	.wrapper
+		@include grid-column(8)
+		@include grid-shift(3)
+		margin-top: $base-spacing
+		& > div
+			margin-bottom: $base-spacing * 2
+
+	table
+		tr
+			cursor: pointer
+			td span
+				font-style: italic
+				color: $adm-action-color
+		.naoLida
+			font-weight: 700
+			background: tint($adm-action-color, 80%)
+			
+.verMais,
+.paginacao
+	padding-left: $small-spacing / 2
+
+.paginacao
+	color: $adm-action-color
+	&:hover
+		color: $adm-action-hover
+
+.acoesRapidas
+	.botoes
+		display: flex
+		justify-content: space-between
+		.adm-btn
+			svg
+				@include size(19px)
+			span
+				@include position(relative, -3px null null null)
+				margin-left: 5px
+

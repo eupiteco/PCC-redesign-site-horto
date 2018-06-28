@@ -1,0 +1,65 @@
+.popup#sugestao
+	.container
+		.mensagem
+			.titulo: h1 Sugerir alteração em ficha de planta
+			form.texto
+				p O formulário a seguir será encaminhado para a equipe do Horto que irá revisá-lo e entrar em contato.
+				.grid
+					.col
+						.dadosUsuario
+							.nome
+								label(for="nome") Nome:
+								input#nome(type="text")
+							.email
+								label(for="email") Email:
+								input#email(type="text")
+						.qualInfo
+							p A sua sugestão é sobre qual informação?
+							ul.infosRadio
+								li
+									input#nomePop(type="radio" name="selecionaInfo")
+									label(for="nomePop") Nome Popular
+								li
+									input#nomeCie(type="radio" name="selecionaInfo")
+									label(for="nomeCie") Nome Científico
+								li
+									input#descricaoBotanica(type="radio" name="selecionaInfo")
+									label(for="descricaoBotanica") Descrição Botânica
+								li
+									input#usosPlanta(type="radio" name="selecionaInfo")
+									label(for="usosPlanta") Usos da planta
+								li
+									input#acoesMedicinais(type="radio" name="selecionaInfo")
+									label(for="acoesMedicinais") Ações medicinais
+								li
+									input#partesUsadas(type="radio" name="selecionaInfo")
+									label(for="partesUsadas") Partes Usadas
+								li
+									input#posologia(type="radio" name="selecionaInfo")
+									label(for="posologia") Modo de usar
+								li
+									input#contraindicacoes(type="radio" name="selecionaInfo")
+									label(for="contraindicacoes") Contarindicações
+								li
+									input#obsClinica(type="radio" name="selecionaInfo")
+									label(for="obsClinica") Observação clínica em Florianópolis
+								li
+									input#infoCie(type="radio" name="selecionaInfo")
+									label(for="infoCie") Informações científicas
+								li
+									input#interacoes(type="radio" name="selecionaInfo")
+									label(for="interacoes") Interações medicamentosas
+								li
+									input#refs(type="radio" name="selecionaInfo")
+									label(for="refs") Referências
+					.col
+						.descricaoTextual
+							label(for="mensagem") Descreva e justifique a alteração necessária de forma detalhada
+							textarea#mensagem
+							form.upload
+								input#naoMostrarMais(type="checkbox")
+								label(for="naoMostrarMais") Não mostrar esta mensagem novamente
+				.cta
+					form.confirma
+					button Continuar
+					button Cancelar

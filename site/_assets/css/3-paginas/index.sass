@@ -1,0 +1,120 @@
+.index
+	@include grid-container
+	height: 100vh
+	display: flex
+	align-items: center
+	//@include grid-visual
+
+.fraseGrande
+	@include grid-column(4)
+	@include grid-shift(4)
+	align-self: flex-start
+	@include padding($small-spacing $base-spacing $base-spacing $small-spacing)
+	position: absolute
+	z-index: 1
+	border-top-left-radius: $base-border-radius * 2
+	border-bottom-right-radius: $base-border-radius * 2
+	background-color: $action-color
+	color: $light-gray
+
+.hero
+	display: block
+
+.buscas
+	height: 100vh
+	position: relative
+	display: flex
+	align-items: center
+	& > div
+		height: 25vh
+		padding: $base-spacing
+		&:hover
+			background: transparentize($action-color, .9)
+			transition: background-color $base-duration $base-timing
+	div > p 
+		display: block
+
+	.textual
+		@include grid-column(6)
+		margin-left: 0
+		border-bottom-right-radius: $base-border-radius
+		border-left: solid 2px $action-color
+		form, p
+			@include grid-column(5, $col6)
+			position: relative
+			input
+				position: relative
+				padding: $small-spacing
+				
+				button svg
+						@include size(30px)
+
+	.etiquetas
+		@include grid-column(6)
+		border-top-left-radius: $base-border-radius
+		.wrapper
+			@include grid-column(5, $col6)
+			@include grid-shift(1, $col6)
+			.botoes
+				margin-left: 0
+				display: flex
+				flex-wrap: wrap
+
+.sobre
+	background:
+		image: url("../img/horto.jpg")
+		size: cover
+		position: center
+
+	.fraseGrande
+		@include grid-shift(2)
+
+	.texto
+		@include grid-column(4)
+		@include grid-shift(2)
+		z-index: 2
+		padding: 30px
+		@include base-box-shadow($dark-gray)
+		background: rgba($light-gray, 0.9)
+		border-top-left-radius: $base-border-radius * 2
+		border-bottom-right-radius: $base-border-radius * 2
+		
+.contato
+	align-items: flex-start
+	padding-top: $base-spacing * 5
+
+	.col-1
+		@include grid-column(4)
+		@include grid-shift(2)
+	.col-2
+		@include grid-column(4)
+		@include grid-shift(2)
+	h1.balao
+		@include position(relative, null null null -10px)
+		margin-bottom: $base-spacing
+		padding: $small-spacing
+		border-top-left-radius: $base-border-radius * 2
+		border-bottom-right-radius: $base-border-radius * 2
+		background: $action-color
+		color: $light-gray
+		
+
+	.links
+		& > div
+			margin-bottom: $small-spacing / 2
+
+			.feather
+				@include position(relative, 8px null null null)
+
+			a
+				font-size: 1.2em
+				margin-left: 4px
+
+	.feed
+		height: 60vh
+		max-width: 500px
+		@include base-box-shadow($medium-gray)
+		background:
+			image: url("../img/face-widget.png")
+			size: cover
+			repeat: no-repeat

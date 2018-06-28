@@ -1,0 +1,74 @@
+#resultados
+	.busca
+		@include grid-shift(2)
+		@include grid-column(8)
+		margin-bottom: $base-spacing * 2
+	
+		.textual
+			position: relative
+			@include margin($base-spacing null 0)
+			
+			.search-btn
+				margin: 0
+
+		.radio
+			display: flex
+			justify-content: center
+
+			.radioinput
+				flex-grow: 1
+				
+	.resultado
+		@include grid-shift(1)
+		@include grid-column(10)
+		@include padding(16px null)
+
+		.foto
+			@include grid-column(3, $col10)
+			height: 200px
+			float: left
+			cursor: pointer
+			border-radius: 3px
+			background:
+				size: cover
+				position: center
+
+		.dados
+			@include grid-column(7, $col10)
+			@include padding(8px null)
+			cursor: pointer
+
+			.nomes
+				margin-bottom: $small-spacing
+				.nome-cientifico
+					color: $action-color
+					margin-bottom: 0
+
+			.lista-tags .usos,
+			.lista-tags .acoes
+				.tag
+					text-decoration: none
+					&:after
+						content: ", "
+				.tag:last-child
+					&:after
+						content: "."
+
+		hr
+			@include grid-column(10, $col10)
+
+	.paginacao
+		@include grid-shift(1)
+		@include grid-column(10)
+		padding: $small-spacing $base-spacing
+		margin-bottom: $base-spacing
+		color: $action-color
+		span
+			font-weight: 700
+// imagens de plantas por id
+#hortela
+	.foto
+		background-image: url(../img/baleeira.jpg)
+#milfolhas
+	.foto
+		background-image: url("../img/mil folhas.jpg")

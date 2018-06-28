@@ -1,0 +1,77 @@
+
+include layouts/default.pug
+include componentes/header.pug
+include mixins.pug
+
+.container#ficha
+
+	.planta.identifica
+		.slide#baleeira
+			.foto#principal
+			.lista
+				.prev ❮
+				.foto.selecionada#foto1
+				.foto#foto2
+				.next ❯
+		.texto
+			.nomes
+				button.btn-edicao.btn-aside(onclick="window.location.href='adm_ficha.html'")
+					+ico-edit
+					span Editar
+				.nomeCie
+					h2 #[em Varronia curassavica] DC./ Borraginaceae
+					h3 Sinônimo: #[em Cordia verbenacea]
+				.nomePop Erva baleeira, catinga de barão, caramona, mijo de grilo
+			.infos
+				.descricao #[strong Descrição botânica:] #[em Cordia Verbenacea] é uma planta arbustiva, bastante ramificada, muito aromática e conhecida pela comunidade por seu “cheiro de tempero”. Apresenta flores brancas e frutos vermelhos, sendo uma espécie muito presente no ambiente da restinga, em todo o litoral de Santa Catarina.
+				.usos #[strong Usos da planta:] #[a(href="/resultados.html") artrite reumatoide], #[a(href="/resultados.html") gota], #[a(href="/resultados.html") dores musculares], #[a(href="/resultados.html") dores da coluna].
+				.acoes #[strong Ações medicinais:] #[a(href="/resultados.html") diurética], #[a(href="/resultados.html") digestiva], #[a(href="/resultados.html") analgésica].
+				.partes #[strong Partes usadas:] Folhas
+			.data: em Atualizado em 31/02/2018
+
+	hr.planta
+	.planta.infoPop
+		h2 Informações para uso pessoal
+		.expander.posologia
+			a(href="javascript:void(0)").expander-trigger Modo de usar
+			.expander-content
+				ul
+					li Uso interno: Infusão 1 colher de sobremesa para 1 xícara de água 3x ao dia.
+					li Uso externo: Cataplasma, creme ou pomada, tintura ou alcoolatura
+
+		.expander.contraindicacoes
+			a(href="javascript:void(0)").expander-trigger.expander-hidden Contraindicações
+			.expander-content
+				p Deve ser evitado o seu uso interno em gestantes e lactantes e em pessoas que tenham reações alérgicas a planta.
+
+	hr.planta
+	.planta.infoPro
+		h2 Informações para uso profissional
+		.expander.expfloripia
+			a(href="javascript:void(0)").expander-trigger Observação clínica em Florianópolis
+			.expander-content
+				p A erva baleeira tem boa resposta com o uso interno e externo da infusão das suas folhas para dores em geral; e da tintura ou alcoolatura das folhas para uso externo em dores musculares e de articulações. A planta também pode ser utilizada em associação com a folha do chapéu de couro (#[em Echinodorus grandiflorus]) para o alívio da gota.
+
+		.expander.infoCie
+			a(href="javascript:void(0)").expander-trigger.expander-hidden Informações científicas
+			.expander-content
+				ul
+					li Estudos (ratos) apontam atividade anti-inflamatória (1) (2), antiúlcera (3)
+					li O extrato da planta possui atividade anti-alergênica, reduzindo a secreção in vitro de histamina em mastócitos de rato, porquinho-da- índia e hamster (4).
+		.expander.interacoes
+			a(href="javascript:void(0)").expander-trigger.expander-hidden Interações medicamentosas
+			.expander-content
+				p Devido à falta de estudos sobre a interação medicamentosa dessa espécie, o uso dela como remédio concomitante com outro medicamento deve ser observado com cuidado.
+		.expander.referencias
+			a(href="javascript:void(0)").expander-trigger Referências
+			.expander-content
+				ol
+					li Pharmacological assay of Cordia verbenacea V: Oral and topical anti-inflammatory activity, analgesic effect and fetus toxicity of a crude leaf extract.
+					li Effect of two active compounds obtained from the essential oil of Cordia verbenacea on the acute inflammatory responses elicited by LPS in the rat paw
+					li Evaluation of the antiulcerogenic and analgesic activities of Cordia verbenacea DC. (Boraginaceae) 
+					li Oliveira, D. M. et al. Cordia verbenacea and secretion of mast cells in different animal species. Journal of Ethnopharmacology, vol. 135, n. 2, 2011, pg. 463-468.
+	hr.planta
+	.planta.sugLink
+		p Conhece alguma nova pesquisa sobre esta planta? Algum nome que não está listado aqui? 
+		button#linkSugestaoFicha(onclick="window.location.href='sugestao.html'") Ajude a manter essas informações atualizadas.
+include componentes/footer.pug

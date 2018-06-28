@@ -1,0 +1,15 @@
+include layouts/default.pug
+include mixins.pug
+.container-adm#login
+
+	.wrapper
+		h1.adm Login administrativo
+		form.loginSenha
+			label(for="email") Email
+			input#email(type="text")
+			label(for="senha") Senha
+			input#senha(type="text")
+			a.adm(href="#") Esqueci minha senha
+		.botoes
+			button.adm-btn(onclick="window.location.href='adm_painel.html'") Continuar
+			button.adm-cancel-btn(onclick="window.location.href='index.html'") Cancelar

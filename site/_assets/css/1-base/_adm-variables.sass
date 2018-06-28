@@ -1,0 +1,24 @@
+$adm-action-color: shade($action-color, 40%)
+$adm-button-color: $adm-action-color
+$adm-action-hover: shade($adm-action-color,20%)
+
+.adm-btn
+	background-color: $adm-button-color
+	border-bottom: 2px solid shade($adm-button-color, 25%)
+	&:hover
+		background-color: $adm-action-hover
+
+.adm-cancel-btn
+	border: none
+	background: transparent
+	color: $adm-button-color
+	&:hover
+		background: transparent
+		color: $adm-action-hover
+
+h1.adm,
+a.adm
+	color: $adm-action-color
+
+a.adm:hover
+	color: $adm-action-hover

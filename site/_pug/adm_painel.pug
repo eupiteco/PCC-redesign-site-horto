@@ -1,0 +1,86 @@
+include layouts/default.pug
+include mixins.pug
+.container-adm#painel-adm
+	include componentes/adm_aside.pug
+
+	.wrapper
+		h1.adm Painel administrativo
+		.acoesRapidas
+			h2 Ações rápidas
+			.botoes
+				.alterarPlanta
+					button.adm-btn(onclick="window.location.href='adm_ficha.html'") 
+						+ico-edit
+						span Editar planta
+					button.adm-btn(onclick="window.location.href='adm_ficha.html'") 
+						+ico-mais
+						span Adicionar planta
+				.alterarArtigo
+					button.adm-btn(onclick="window.location.href='#'")
+						+ico-edit
+						span Editar artigo
+					button.adm-btn(onclick="window.location.href='#'")
+						+ico-mais
+						span Adicionar artigo
+		.sugestoes
+			h2 Sugestões
+			table.tabelaSugestoes
+				tr.naoLida
+					td #[em Ocimum Selloi] - Ações medicinais
+					td Roberto Silva
+					td 26/07/2017
+				tr.naoLida
+					td #[em Aloe vera] - Ações Medicinais
+					td Júlia Machado
+					td 19/04/2017
+				tr
+					td #[em Mentha] spp. - Nomes populares
+					td Jane Vieira
+					td 31/05/2017
+				tr
+					td #[em Mentha] spp. - Referências
+					td Jane Vieira
+					td 31/05/2017
+			a.verMais(href="#") Ver todas as sugestões
+
+		.rascunhos
+			h2 Rascunhos
+			table.tabelaRascunhos
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Ocimum Selloi]
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Mentha] spp.
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'") 
+					td #[em Aloe vera]
+					td Cris
+					td 19/04/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Lavandula] spp.
+					td Michael
+					td 31/05/2017
+			a.verMais(href="#") Ver todos os racunhos
+
+		.edicoesRecentes
+			h2 Alterações recentes
+			table.tabelaRecentes
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Pelmus boldus]
+					td Michael
+					td 20/07/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td Sobre o Horto
+					td César
+					td 21/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'") 
+					td #[em Aloe vera]
+					td Cris
+					td 19/04/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Lavandula] spp.
+					td Michael
+					td 31/05/2017
+			a.verMais(href="#") Ver todas as plantas

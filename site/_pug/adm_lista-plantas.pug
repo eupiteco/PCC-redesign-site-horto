@@ -1,0 +1,82 @@
+include layouts/default.pug
+include mixins.pug
+.container-adm#lista-plantas
+	include componentes/adm_aside.pug
+
+	.wrapper
+		.botoesListaEd
+			.botaoAdicionar
+				button.adm-btn(onclick="window.location.href='adm_ficha.html'") 
+					+ico-mais
+					span Adicionar planta
+			form.buscaTextual.textual
+				input(type="search" placeholder="Buscar")
+				button(type="button" onclick="javascript:location.href='adm_lista-plantas.html'").search-btn: +ico-search
+			
+		.listaEdicao
+			table.tabelaListaPlantas
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Ocimum Selloi]
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Mentha] spp.
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'") 
+					td #[em Aloe vera]
+					td Cris
+					td 19/04/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Lavandula] spp. #[span rascunho]
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Ocimum Selloi]
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Mentha] spp.
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'") 
+					td #[em Aloe vera]
+					td Cris
+					td 19/04/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Lavandula] spp.
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Ocimum Selloi]
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Mentha] spp. #[span rascunho]
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'") 
+					td #[em Aloe vera]
+					td Cris
+					td 19/04/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Lavandula] spp.
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Ocimum Selloi] #[span rascunho]
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Mentha] spp.
+					td Michael
+					td 31/05/2017
+				tr(onclick="window.location.href='adm_ficha.html'") 
+					td #[em Aloe vera]
+					td Cris
+					td 19/04/2017
+				tr(onclick="window.location.href='adm_ficha.html'")
+					td #[em Lavandula] spp.
+					td Michael
+					td 31/05/2017
+		.paginacao << < 1 2 3 4 5 > >>

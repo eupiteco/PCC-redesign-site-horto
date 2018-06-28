@@ -1,0 +1,27 @@
+.botoesListaEd
+	display: flex
+	justify-content: space-between
+
+	svg
+		@include size(19px)
+
+	span
+		@include position(relative, -3px null null null)
+		margin-left: 5px
+
+	.search-btn
+		background: $adm-button-color
+		&:hover
+			background: $adm-action-hover
+
+.buscaTextual
+	position: relative
+
+.tabelaListaPlantas
+	tr
+		cursor: pointer
+
+	td span
+		font-size: .9em
+		font-style: italic
+		color: $adm-action-color

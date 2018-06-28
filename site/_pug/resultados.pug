@@ -1,0 +1,58 @@
+
+include layouts/default.pug
+include componentes/header.pug
+include mixins.pug
+.container#resultados
+
+	.busca.resultados
+		form.textual
+			input(type="search" placeholder="Pesquise sobre plantas medicinais...")
+			button.search-btn(type="button" onclick="window.location.href='resultados.html'"): +ico-search
+		.radio
+			.radioinput
+				input#filtroTudo(type="radio" name="filtro")
+				label.check(for="filtroTudo")
+				label(for="filtroTudo") Tudo
+			.radioinput
+				input#filtroNCien(type="radio" name="filtro")
+				label.check(for="filtroNCien")
+				label(for="filtroNCien") Nome científico
+			.radioinput
+				input#filtroNPop(type="radio" name="filtro")
+				label.check(for="filtroNPop")
+				label(for="filtroNPop") Nome popular
+			.radioinput
+				input#filtroUsos(type="radio" name="filtro")
+				label.check(for="filtroUsos")
+				label(for="filtroUsos") Usos
+			.radioinput
+				input#filtroAcoes(type="radio" name="filtro")
+				label.check(for="filtroAcoes")
+				label(for="filtroAcoes") Ações medicinais
+
+	div(onclick="window.location.href='juridico.html'").resultado#hortela
+		+resultado("Varronia curassavica", "Erva baleeira, catinga de barão, caramona, mijo de grilo", ["artrite reumatoide", "gota", "dores musculares", "dores da coluna"], ["diurética", "digestiva", "analgésica"])
+
+	div(onclick="window.location.href='juridico.html'").resultado#milfolhas
+		+resultado("Achillea millefolium", "mil-folhas, aquiléia, mil em ramas", ["disenteria", "febres", "hipertensão", "amenorreia", "contusões", "dores musculares", "doenças de pele", "feridas", "úlceras dérmicas", "queimaduras", "inflamações ginecológicas", "eczemas", "cãibras"], ["diurética", "digestiva", "analgésica"])
+
+	div(onclick="window.location.href='juridico.html'").resultado#hortela
+		+resultado("Varronia curassavica", "Erva baleeira, catinga de barão, caramona, mijo de grilo", ["artrite reumatoide", "gota", "dores musculares", "dores da coluna"], ["diurética", "digestiva", "analgésica"])
+
+	div(onclick="window.location.href='juridico.html'").resultado#milfolhas
+		+resultado("Achillea millefolium", "mil-folhas, aquiléia, mil em ramas", ["disenteria", "febres", "hipertensão", "amenorreia", "contusões", "dores musculares", "doenças de pele", "feridas", "úlceras dérmicas", "queimaduras", "inflamações ginecológicas", "eczemas", "cãibras"], ["diurética", "digestiva", "analgésica"])
+
+	div(onclick="window.location.href='juridico.html'").resultado#hortela
+		+resultado("Varronia curassavica", "Erva baleeira, catinga de barão, caramona, mijo de grilo", ["artrite reumatoide", "gota", "dores musculares", "dores da coluna"], ["diurética", "digestiva", "analgésica"])
+
+	div(onclick="window.location.href='juridico.html'").resultado#milfolhas
+		+resultado("Achillea millefolium", "mil-folhas, aquiléia, mil em ramas", ["disenteria", "febres", "hipertensão", "amenorreia", "contusões", "dores musculares", "doenças de pele", "feridas", "úlceras dérmicas", "queimaduras", "inflamações ginecológicas", "eczemas", "cãibras"], ["diurética", "digestiva", "analgésica"])
+
+	div(onclick="window.location.href='juridico.html'").resultado#hortela
+		+resultado("Varronia curassavica", "Erva baleeira, catinga de barão, caramona, mijo de grilo", ["artrite reumatoide", "gota", "dores musculares", "dores da coluna"], ["diurética", "digestiva", "analgésica"])
+
+	div(onclick="window.location.href='juridico.html'").resultado#milfolhas
+		+resultado("Achillea millefolium", "mil-folhas, aquiléia, mil em ramas", ["disenteria", "febres", "hipertensão", "amenorreia", "contusões", "dores musculares", "doenças de pele", "feridas", "úlceras dérmicas", "queimaduras", "inflamações ginecológicas", "eczemas", "cãibras"], ["diurética", "digestiva", "analgésica"])
+
+	.paginacao << < 1 #[span 2] 3 4 5 > >>
+include componentes/footer.pug

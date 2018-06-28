@@ -1,0 +1,11 @@
+.popup#juridico
+	.container
+		.mensagem
+			.titulo: h1 Aviso legal
+			.texto
+				include:markdown-it(html=true typographer=true) ../md/juridico.md
+			.cta
+				button(onclick="window.location.href='ficha.html'") Continuar
+				form
+					input#naoMostrarMais(type="checkbox")
+					label(for="naoMostrarMais") Não mostrar esta mensagem novamente

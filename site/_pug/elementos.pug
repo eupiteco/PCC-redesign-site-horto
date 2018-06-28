@@ -1,0 +1,64 @@
+include layouts/default.pug
+
+body
+	h1 Teste com todos os elementos do site do Horto
+
+	.container
+		.interativos
+			.verde
+				h1 Exemplo de título
+				h2 subtítulo interessante
+				ul
+					li Início
+					li#usosegurov Uso seguro das plantas
+					li.selecao Sobre o horto
+					li Plantas
+					li Login
+
+			.branco
+				h1 Exemplo de título
+				h2 subtítulo interessante
+				ul
+					li Início
+					li#usosegurob Uso seguro das plantas
+					li.selecao Sobre o horto
+					li Plantas
+					li Login
+
+			.botoes
+				button.confirma Confirma
+				button.cancela Cancela
+				button.desativado Desativado
+
+		form.formulario
+			label Email
+				input(type="email")
+			label Escreva, em detalhes a sua sugestão
+				textarea(rows="20" cols="60") 
+			.radio
+				input#rad1(type="radio" name="radios")
+				label(for="rad1") Opção 1
+		
+				input#rad2(type="radio" name="radios")
+				label(for="rad2") Opção 2
+
+				input#rad3(type="radio" name="radios")
+				label(for="rad3") Opção 3
+				
+				input#rad4(type="radio" name="radios")
+				label(for="rad4") Opção 4
+			
+			select
+				option Opção 1
+				option Opção 2
+				option Opção 3
+				option Opção 4
+
+		.texto
+			p Nem  bem  teve  seis  anos  deram  água  num  chocalho  pra ele e Macunaíma  principiou  falando  como  todos.  E  pediu  pra  mãe  que largasse  da  mandioca  ralando  na  cevadeira  e  levasse ele passear  no mato.  A  mãe  não  quis porque  não  podia  largar  da  mandioca  não. Macunaíma  choramingou  dia  inteiro.  De noite  continuou  chorando. No  outro  dia  esperou  com  o  olho  esquerdo  dormindo  que  a  mãe principiasse  o  trabalho.  Então  pediu  pra  ela que  largasse  de  tecer  o paneiro  de  guarumá-membeca  e  levasse ele no  mato  passear.  A  mãe não  quis  porque  não  podia  largar  o  paneiro  não. E  pediu pra nora, companheira de Jiguê que levasse o menino. A companheira de Jiguê era  bem  moça  e  chamava  Sofará.  
+			p Foi  se  aproximando  ressabiada porém  desta  vez  Macunaíma  ficou  muito  quieto  sem  botar  a  mão  na graça de ninguém. A moça carregou o piá nas costas e foi até o pé de aninga na beira do rio. A água parará pra inventar um ponteio de gozo nas  folhas  do javari.  O  longe  estava  bonito  com  muitos  biguás  e biguatingas avoando na estrada do furo. A moça botou Macunaíma na praia porém ele principiou choramingando, que tinha muita formiga!... e pediu pra Sofará que o levasse até o derrame do morro lá dentro do mato, a moça fez. Mas assim que deitou o curumim nas tiriricas, tajás e trapoerabas daserrapilheira, ele botou  corpo num átimo e ficou um príncipe lindo. Andaram por lá muito.
+
+		.imagens
+			img(src="/_assets/img/img1.jpg")
+			img(src="/_assets/img/img2.jpg")
+			img(src="/_assets/img/img3.jpg")

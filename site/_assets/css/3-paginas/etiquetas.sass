@@ -1,0 +1,26 @@
+.head,
+.letra
+	@include grid-shift(1)
+	@include grid-column(10)
+
+	.alpha
+		color: $action-color
+		font-size: modular-scale(1)
+
+.letra
+	margin-top: $base-spacing
+	.inicial
+		@include size(2em)
+		border: solid 3px $action-color
+		border-radius: 1em
+		text-align: center
+		font-size: 24px
+		font-weight: 700
+		color: $action-color
+		span
+			@include position(relative, 1px null null -1px)
+
+	.etiquetas
+		margin-top: 1em
+		display: flex
+		flex-wrap: wrap

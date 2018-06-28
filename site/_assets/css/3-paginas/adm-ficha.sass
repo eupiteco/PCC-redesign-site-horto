@@ -1,0 +1,48 @@
+.camposEdicao > div
+	margin-bottom: $base-spacing
+
+.botoes
+	.adm-cancel-btn
+		background: transparent
+		color: $adm-button-color
+		border: none
+		&:hover
+			background: transparent
+			color: $adm-action-hover
+
+	.adm-btn
+		border-bottom: 2px solid shade($adm-button-color, 25%)
+		background: $adm-button-color
+		&:hover
+			background: $adm-action-hover
+#listaFotos
+	display: flex
+	padding: $small-spacing
+	align-items: center
+	margin-bottom: $small-spacing
+
+	background-color: white
+	border-radius: $base-border-radius
+	border: $base-border
+
+	.foto
+		display: flex
+		flex-direction: column
+		align-items: center
+
+		.img
+			@include size(200px)
+			@include margin(null $small-spacing)
+			border-radius: $base-border-radius
+			background:
+				size: cover
+				position: center
+		#foto1
+			background-image: url("../img/baleeira.jpg")
+
+		#foto2
+			background-image: url("../img/baleeira flor.jpg")
+
+	.adicionar
+		@include size(120px)
+		margin-left: $base-spacing

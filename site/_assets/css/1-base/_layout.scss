@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	max-width: 1366px;
+	margin: 0 auto;
+	background: $light-gray;
+}
+
+.container-adm,
+.container,
+.header,
+.footer {
+	@include grid-container;
+}
+
+.container {
+	margin-top: $base-spacing;
+}

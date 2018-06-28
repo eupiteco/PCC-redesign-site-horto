@@ -1,0 +1,15 @@
+include layouts/default.pug
+include componentes/header.pug
+include mixins.pug
+
+.container#etiquetas
+	.head
+		h1 Lista de usos
+		div.alpha A B C D E F G H I J L M N O P Q R S T U V X Z
+	+etiquetas-m('A','Analgésico')
+	+etiquetas-p('C','Calmante')
+	+etiquetas-m('D','Digestivo')
+	+etiquetas-g('F','Fonononon')
+	+etiquetas-p('G','Gonononon')
+
+include componentes/footer.pug

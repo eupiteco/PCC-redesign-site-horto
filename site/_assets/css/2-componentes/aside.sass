@@ -1,0 +1,25 @@
+aside.adm-menu
+	@include grid-column(2)
+	height: 100vh
+	position: fixed
+
+	background-color: $adm-action-color	
+
+	.titulo
+		@include padding($base-spacing $base-spacing $small-spacing $base-spacing)
+		color: $light-gray
+		font-size: 1.2em
+
+	li
+		@include padding(null $base-spacing)
+		cursor: pointer
+		color: $light-gray
+		transition: all $base-duration $base-timing
+		&:hover
+			background-color: $adm-action-hover
+
+	.menuSite
+		li:last-child
+			margin-bottom: $base-spacing
+	hr
+		@include margin(null $base-spacing)

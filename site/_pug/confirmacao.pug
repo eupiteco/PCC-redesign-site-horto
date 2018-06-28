@@ -1,0 +1,75 @@
+include layouts/default.pug
+include componentes/header.pug
+include mixins.pug
+
+include componentes/confirmacao.pug
+
+.container#sugestao
+	.mensagem
+		.titulo: h1 Sugerir alteração em ficha de planta
+		form.texto
+			.dadosUsuario
+				p O formulário a seguir será encaminhado para a equipe do Horto que irá revisá-lo e entrar em contat através do seu endereço de e-mail.
+				.nome
+					label(for="nome") Nome:
+					input#nome(type="text")
+				.email
+					label(for="email") Email:
+					input#email(type="text")
+			.qualPlanta
+				label(for="selecionaNomeCientifico") Sobre qual planta é a sua sugestão?
+				select#selecionaNomeCientifico
+					option(value="label" selected)
+					option(value="achilleaMillefolium") Achillea millefolium
+					option(value="varroniaCurassavica") Varronia curassavica
+			.qualInfo
+				label(for="selecionaInfo") Sobre qual informação é a sua sugestão?
+				ul.infosRadio#selecionaInfo
+					li
+						input#nomePop(type="radio" name="selecionaInfo")
+						label(for="nomePop") Nome Popular
+					li
+						input#nomeCie(type="radio" name="selecionaInfo")
+						label(for="nomeCie") Nome Científico
+					li
+						input#descricaoBotanica(type="radio" name="selecionaInfo")
+						label(for="descricaoBotanica") Descrição Botânica
+					li
+						input#usosPlanta(type="radio" name="selecionaInfo")
+						label(for="usosPlanta") Usos da planta
+					li
+						input#acoesMedicinais(type="radio" name="selecionaInfo")
+						label(for="acoesMedicinais") Ações medicinais
+					li
+						input#partesUsadas(type="radio" name="selecionaInfo")
+						label(for="partesUsadas") Partes Usadas
+					li
+						input#posologia(type="radio" name="selecionaInfo")
+						label(for="posologia") Modo de usar
+					li
+						input#contraindicacoes(type="radio" name="selecionaInfo")
+						label(for="contraindicacoes") Contarindicações
+					li
+						input#obsClinica(type="radio" name="selecionaInfo")
+						label(for="obsClinica") Observação clínica em Florianópolis
+					li
+						input#infoCie(type="radio" name="selecionaInfo")
+						label(for="infoCie") Informações científicas
+					li
+						input#interacoes(type="radio" name="selecionaInfo")
+						label(for="interacoes") Interações medicamentosas
+					li
+						input#refs(type="radio" name="selecionaInfo")
+						label(for="refs") Referências
+			.descricaoTextual
+				label(for="mensagem") Descreva e justifique a alteração necessária de forma detalhada
+				textarea#mensagem
+			.upload
+				label(for="enviarArquivo") Utilize este campo para anexar arquivos caso necessário
+				input#enviarArquivo(type="file")
+		.cta
+			form.confirma
+			button(onclick="window.location.href='index.html'") Continuar
+			button(onclick="window.location.href='index.html'").cancel-btn Cancelar
+
+include componentes/footer.pug

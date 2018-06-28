@@ -1,0 +1,376 @@
+include layouts/default.pug
+include mixins.pug
+
+.container#styleguide
+
+	#cores
+		h2 Cores
+		.cards
+			.user-final
+				h3 Usuário final
+				.cor#action-color
+					.amostra
+					.nome $action-color
+					.codigo #519213
+				.cor#action-hover
+					.amostra
+					.nome $action-hover
+					.codigo #41750f
+			.admin
+				h3 Área administrativa
+				.cor#adm-action-color
+					.amostra
+					.nome $adm-action-color
+					.codigo #31580b
+				.cor#adm-action-hover
+					.amostra
+					.nome $adm-action-hover
+					.codigo #274609
+			.apoio
+				h3 Apoio
+				.cor#light-gray
+					.amostra
+					.nome $light-gray
+					.codigo #eeeeee
+				.cor#medium-gray
+					.amostra
+					.nome $medium-gray
+					.codigo #999999
+				.cor#dark-gray
+					.amostra
+					.nome $dark-gray
+					.codigo #333333
+	
+	aside.menu
+		nav.toc
+			ul Navegação
+				li: a(href="#cores") Cores
+				li: a(href="#tipografia") Tipografia
+				li: a(href="#icones") Ícones
+				li: a(href="#botoes") Botões
+				li: a(href="#menus") Menus fixos
+				li: a(href="#tabelas") Tabelas
+				li: a(href="#forms") Forms
+				
+	hr
+	#tipografia
+		h2 Tipografia
+		.user-final
+			h3 Usuário final
+			table#user-final
+				tr
+					th tag
+					th font-size
+					th line-height
+					th font-style
+					th color
+				tr
+					th h1
+					td 2em
+					td 1.2
+					td bold
+					td.action $action-color
+				tr
+					th h2
+					td 1.5em
+					td 1.2
+					td bold
+					td.dGray $dark-gray
+				tr
+					th h3
+					td 1.25em
+					td 1.2
+					td bold
+					td.dGray $dark-gray
+				tr
+					th p, li, ul
+					td 1em
+					td 1.5
+					td -
+					td.dGray $dark-gray
+				tr
+					th em
+					td 1em
+					td 1.5
+					td italic
+					td.dGray $dark-gray
+				tr
+					th strong
+					td 1em
+					td 1.5
+					td bold
+					td.dGray $dark-gray
+				tr
+					th a
+					td 1em
+					td 1.5
+					td -
+					td.action $action-color
+				tr
+					th a:hover
+					td 1em
+					td 1.5
+					td -
+					td.hover $action-hover
+				tr
+					th .contato h1
+					td 2em
+					td 1.2
+					td bold
+					td.lGray $light-gray
+				tr
+					th .contato a
+					td 1.2em
+					td 1.5
+					td -
+					td.action $action-color
+
+		.admin
+			h3 Área administrativa
+			table#admin
+				tr
+					th tag
+					th font-size
+					th line-height
+					th font-style
+					th color
+				tr
+					th h1
+					td 2em
+					td 1.2
+					td bold
+					td.adm-action $adm-action-color
+				tr
+					th a
+					td 1em
+					td 1.5
+					td -
+					td.adm-action $adm-action-color
+				tr
+					th a:hover
+					td 1em
+					td 1.5
+					td -
+					td.adm-hover $adm-action-hover
+	
+	#icones
+		h2 Ícones
+		p Os ícones utilizados fazem partes da coleção #[a(href="https://feathericons.com") Feather Icons], uma coleção de ícones de código aberto criads para interfaces digitais.
+		.cards
+			.listaIcones
+				h3 Propriedades SVG
+				ul
+					li #[b width:] 24px
+					li #[b height:] 24px
+					li #[b margin:] 0
+					li #[b padding:] 0
+					li #[b stroke:] currentColor
+					li #[b stroke-width:] 2
+					li #[b stroke-linecap:] round
+					li #[b stroke-linejoin:] round
+					li #[b fill:] none
+
+			.listaIcones
+				h3 Cores
+				.amostra#fundoClaro
+					+ico-search
+					+ico-download
+					+ico-edit
+					+ico-mail
+					+ico-balao
+					+ico-mais
+				.fundo $light-gray
+				.cor $dark-gray
+				.amostra#botao
+					+ico-search
+					+ico-download
+					+ico-edit
+					+ico-mail
+					+ico-balao
+					+ico-mais
+				.fundo $action-color
+				.cor $light-gray
+				.amostra#botaoAdm
+					+ico-search
+					+ico-download
+					+ico-edit
+					+ico-mail
+					+ico-balao
+					+ico-mais
+				.fundo $adm-action-color
+				.cor $light-gray
+	hr
+	#botoes
+		h2 Botões
+		.cards
+			.propriedades
+				h3 Propriedades gerais
+				ul
+					li #[b margin-right:] .75em
+					li #[b margin-bottom:] .75em
+					li #[b padding:] .75em 1.5em
+					li #[b font-size:] 16px
+					li #[b line-height:] 1
+					li #[b text-align:] center
+					li #[b text-decoration:] none
+					li #[b border-top-left-radius:] 5px
+					li #[b border-bottom-right-radius:] 5px
+
+			.user-final
+				h3 Usuário final
+				.btnPadrao
+					button.default Padrão
+					button.default.hover :hover
+					ul
+						li #[b background:] $action-color
+						li #[b color:] $light-gray
+						li #[b border-bottom:] solid 2px $action-hover
+						li: ul.hover :hover
+							li #[b background:] $action-hover
+				hr
+				.btnCancel
+					button.cancel-btn Cancelar
+					button.cancel-btn.hover :hover
+					ul
+						li #[b background:] transparent
+						li #[b color:] $action-color
+						li: ul.hover :hover
+							li.hover #[b color:] $action-hover
+				hr
+				.etiquetas
+					button.etiqueta-btn Etiqueta
+					button.etiqueta-btn.hover :hover
+					ul
+						li #[b background:] transparent
+						li #[b color:] $dark-gray
+						li #[b border:] solid 1px $action-color
+						li #[b border-left:] 3px	
+						li: ul.hover :hover
+							li.hover #[b box-shadow:] 2 0 0 $action-color
+			.adm
+				h3 Área administrativa
+				.btnPadrao
+					button.adm-btn Padrão
+					button.adm-btn.hover :hover
+					ul
+						li #[b background:] $adm-action-color
+						li #[b color:] $dark-gray
+						li #[b border-bottom:] solid 2px $adm-action-hover
+						li: ul.hover :hover
+							li.hover #[b background:] $adm-action-hover
+				hr
+				.btnCancel
+					button.adm-cancel-btn Cancelar
+					button.adm-cancel-btn.hover :hover
+					ul
+						li #[b background:] transparent
+						li #[b color:] $adm-action-color
+						li: ul.hover :hover
+							li.hover #[b color:] $adm-action-hover
+	hr
+	#menus
+		h2 Menus fixos
+		.cards
+			.nav-final
+				h3 Usuário final
+				ul.mostraMenu
+					li: a(href="#") Item
+					li.hover: a(href="#") :hover
+				ul #[b ul]
+					li #[b border-bottom:] solid 2px $action-color
+					li #[b display:] flex
+				ul #[b li]
+					li #[b padding:] .375em .75em
+					li #[b color:] $action-color
+					li: ul.hover :hover
+						li #[b color:] $action-hover
+			.nav-admin
+				h3 Área administrativa
+				ul.mostraMenu
+					li Item
+					li.hover :hover
+				ul #[b ul]
+					li #[b padding:] 1.5em 0
+					li #[b background:] $adm-action-colo
+				ul #[b li]
+					li #[b padding:] 0 1.5em
+					li #[b color:] $light-gray
+					li: ul.hover :hover
+						li #[b background:] $adm-action-hover
+	hr
+	#tabelas
+		h2 Tabelas
+		.cards
+			.table
+				h3 table
+				ul
+					li #[b margin:] 0.75em
+					li #[b table-layout:] fixed
+					li #[b text-align:] left
+			.tr
+				h3 tr
+				ul
+					li #[b border-bottom:] solid 1px $medium-gray
+					li #[b padding-left:] 0.75em
+					li #[b padding-right:] 0,75em
+				h3 tr:first-child
+				ul
+					li #[b border-top:] solid 1px $medium-gray
+			.thtd
+				h3 th,td
+				ul
+					li #[b padding:] 0.75em 0.75em 0.75em 0
+				h3 th
+				ul
+					li #[b font-weight:] 700
+	hr
+	#forms
+		h2 Formulários
+		.cards
+			.label
+				h3 Legendas
+				label(for="texto") Label
+				ul
+					li #[b display:] block
+					li #[b font-weight:] 700
+					li #[b margin-bottom:] 0.375em
+			.input
+				h3 Campos de texto
+				input#texto(type="text" placeholder="text input")
+				ul
+					li #[b width:] 100%
+					li #[b padding:] 1.5em 0.75em
+					li #[b margin-bottom:] 0.75em
+					li #[b border:] solid 1px $medium-gray
+					li #[b border-top-left-radius:] 5px
+					li #[b border-bottom-right-radius:] 5px
+					li #[b box-shadow:] inset 0 1px 3px rgba(#000, 0.06 
+					li: ul.hover :focus
+						li #[b border-color:] $action-color
+						li #[b box-shadow:] inset 0 0 5px rgba($action-color, 0.7)
+			.radio
+				h3 Botões de rádio
+				.radioStyle
+					.radioinput
+						input#radio1(type="radio" name="radioGuide")
+						label.check(for="radio1")
+					.radioinput
+						input#radio2(type="radio" name="radioGuide")
+						label.check(for="radio2")
+				h3 .check
+				ul
+					li #[b height:] 15px
+					li #[b width:] 15px
+					li #[b border:] solid 1px $action-color
+					li #[b border-radius:] 100%
+					li #[b background:] white
+					li #[b position:] relative
+				h3 .check::before
+				ul
+					li #[b height:] 7px
+					li #[b width:] 7px
+					li #[b border-radius:] 100%
+					li #[b background:] $action-hover
+					ul.hover: li #[b position:] absolute
+						li #[b top:] 3px
+						li #[b left:] 3px

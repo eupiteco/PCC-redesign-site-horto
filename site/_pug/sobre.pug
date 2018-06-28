@@ -1,0 +1,12 @@
+include layouts/default.pug
+include componentes/header.pug
+include mixins.pug
+.container#artigo
+
+	article
+		.capa
+		button.btn-pdf.btn-aside Baixar PDF
+			+ico-download
+		include:markdown-it(html=true typographer=true) md/sobre.md
+
+include componentes/footer.pug

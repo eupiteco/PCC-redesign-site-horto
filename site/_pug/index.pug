@@ -1,0 +1,39 @@
+include layouts/default.pug
+include componentes/header.pug
+include mixins.pug
+
+.container#index
+	.hero.index
+		h1.fraseGrande Encontre o que você precisa sobre plantas medicinais.
+		.buscas
+			.etiquetas
+				.wrapper
+					p Procure nas listas...
+					.botoes
+						button(onclick="window.location.href='resultados.html'") Lista de plantas
+						button(onclick="window.location.href='etiquetas.html'") Lista de sintomas
+						button(onclick="window.location.href='etiquetas.html'") Lista de usos
+
+			.textual
+				p ...ou por um termo específico
+				form
+					input(type="search" placeholder="Digite aqui o que procura...")
+					button(type="button" onclick="javascript:location.href='resultados.html'").search-btn: +ico-search
+	.sobre.index#sobreIndex
+		h1.fraseGrande Um espaço de pesquisa, extensão e ensino de plantas medicinais.
+		.texto: p As plantas medicinais fazem parte da história do ser humano e ainda hoje do cotidiano de grande parte da população, em torno de 80% da população as utilizam ou como opção única de tratamento ou em associação com medicamentos de síntese. #[br ] #[a(href="sobre.html") Saiba mais sobre o Horto]
+
+	.contato.index#contato
+		.col-1
+			h1.balao.triangle-right Fale conosco
+			.links
+				.email
+					+ico-mail
+					a(href="mailto:ala@ulu.com") hortodohu@contato.ufsc.br
+				.sugLink 
+					+ico-balao
+					a#linkSugestaoFicha(href="sugestao.html") Formulário de sugestão sobre as plantas
+		.col-2
+			.feed
+
+include componentes/footer.pug

@@ -1,0 +1,70 @@
+mixin ico-search
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#search")
+mixin ico-download
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#download")
+mixin ico-alerta
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#alert-triangle")
+mixin ico-edit
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#edit")
+mixin ico-mail
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#mail")
+mixin ico-balao
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#message-square")
+mixin ico-mais
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#plus")
+mixin ico-down
+	svg.feather
+		use(xlink:href="_assets/ico/feather-sprite.svg#arrow-down")
+
+mixin etiquetas-p(letra, palavra)
+	.letra
+		.inicial
+			span= letra 
+		.etiquetas
+			- for (var x = 0; x < 4; x++)
+				button.etiqueta-btn(onclick="window.location.href='resultados.html'")= palavra
+		hr
+
+mixin etiquetas-m(letra, palavra)
+	.letra
+		.inicial
+			span= letra 
+		.etiquetas
+			- for (var x = 0; x < 10; x++)
+				button.etiqueta-btn(onclick="window.location.href='resultados.html'")= palavra
+		hr
+
+mixin etiquetas-g(letra, palavra)
+	.letra
+		.inicial
+			span= letra 
+		.etiquetas
+			- for (var x = 0; x < 19; x++)
+				button.etiqueta-btn(onclick="window.location.href='resultados.html'")= palavra
+		hr
+mixin resultado(nCie, nPop, usos, acoes)
+		.foto
+		.dados
+			.nomes
+				h3.nome-cientifico: em= nCie
+				.nome-popular= nPop
+			.lista-tags
+				.usos Usos da planta: 
+					-
+						var listausos = usos
+					each tag in listausos
+						a.tag(href="resultados.html")= tag
+				.acoes Ações medicinais: 
+					-
+						var listaacoes = acoes
+					each tag in listaacoes
+						a.tag(href="resultados.html")= tag
+			.data: em Atualizado em 31/02/2018
+		hr

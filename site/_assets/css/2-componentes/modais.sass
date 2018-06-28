@@ -1,0 +1,69 @@
+.popup
+	@include size(100vw, 100%)
+	@include position(fixed, 0 0)
+	z-index: 999
+	background: transparentize($dark-gray, 0.1)
+	display: flex
+	align-items: center
+	justify-content: center
+
+	.container
+		margin: 0 auto
+		width: 1280px
+
+	.mensagem
+		@include grid-column(8)
+		@include grid-shift(2)
+		@include base-box-shadow($dark-gray)
+		background: white
+		border-radius: $base-border-radius
+
+		.titulo
+			@include padding($base-spacing / 2 $base-spacing)
+			background: $action-color
+			@include border-top-radius($base-border-radius)
+			h1
+				margin: 0
+				color: white
+
+		.texto
+			@include padding($base-spacing / 2 $base-spacing 0)
+			margin-bottom: $small-spacing
+			
+		.cta
+			@include padding($base-spacing / 2 $base-spacing $base-spacing)
+#juridico
+	input#naoMostrarMais
+		float: left
+
+#sugestao
+	.mensagem
+		@include grid-column(8)  
+		@include grid-shift(2)
+		margin-bottom: $base-spacing
+
+	.texto > div
+		margin-bottom: $base-spacing
+
+	.dadosUsuario div label
+		float: left
+
+	.qualInfo
+		ul
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr
+
+		li 
+			input
+				float: left
+			label
+				display: flex
+
+#confirmacao
+	.mensagem
+		@include padding($base-spacing null null)
+	.cta
+		display: flex
+
+.invisivel
+	display: none

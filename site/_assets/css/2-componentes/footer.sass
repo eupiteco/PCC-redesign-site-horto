@@ -1,0 +1,50 @@
+.footer
+	@include padding(32px null 32px null)
+
+	background: $dark-gray
+	color: $light-gray
+
+	.grid-container
+		a
+			color: $light-gray
+			text-decoration: none
+
+		a:hover
+			text-decoration: underline
+			
+
+		.logos
+			@include grid-column(3)
+			@include grid-shift(1)
+
+			& *
+				height: 70px
+				min-width: 40%
+				margin: $small-spacing auto
+				background:
+					size: contain
+					position: center
+					repeat: no-repeat
+
+			display: flex
+			flex-wrap: wrap
+		
+			#logo-horto-footer
+				min-width: 90%
+				background-image: url("../img/horto-logo.svg")
+			#logo-ufsc-footer
+				background-image: url("../img/brasao_ft.svg")
+			#logo-css-footer
+				background-image: url("../img/ccs_logo.svg")
+		.mapa
+			@include grid-column(4)
+			@include grid-shift(1)
+			.listas
+				display: flex
+
+				.etiquetas
+					margin-left: 12px
+		
+		.enderecos
+			@include grid-column(3)
+			@include grid-shift(1)

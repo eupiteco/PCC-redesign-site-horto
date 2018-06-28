@@ -1,0 +1,159 @@
+#styleguide
+	//@include grid-visual
+	margin: $base-spacing 0
+	hr,
+	& > div
+		@include grid-column(9)
+	.menu
+		@include grid-column(2)
+		@include grid-shift(10)
+		position: sticky
+		top: $base-spacing
+		padding: $small-spacing
+		li
+			margin-left: $small-spacing
+		li:first-child
+			margin-top: $small-spacing
+		a
+			text-decoration: none
+	.cards
+		display: flex
+		& > *
+			@include grid-column(3, $col9)
+	ul.hover
+		margin-left: $base-spacing
+	#cores
+		.cor
+			margin-bottom: $small-spacing
+			.amostra
+				@include size(160px, 40px)
+				border-top-left-radius: $base-border-radius
+				border-bottom-right-radius: $base-border-radius
+			.nome:before
+				content: "Nome: "
+				font-weight: 700
+			.codigo:before
+				content: "Hex: "
+				font-weight: 700
+		
+
+	#tipografia
+		table
+			@include margin(null null $base-spacing $base-spacing)
+
+		// Amostras de cor da tipografia
+		tr td:last-child
+			&:after
+				content: "" 
+				display: inline-block
+				@include size(13px)
+				margin-left: $small-spacing
+				border-top-left-radius: $base-border-radius
+				border-bottom-right-radius: $base-border-radius
+	
+	#icones
+			.amostra
+				display: flex
+				justify-content: space-around
+				padding: $small-spacing
+			
+			.fundo:before
+				content: "background-color: "
+				font-weight: 700
+
+			.cor
+				margin-bottom: $base-spacing
+			.cor:before
+				content: "color: "
+				font-weight: 700
+
+	#botoes
+		.etiquetas
+			button.hover
+				box-shadow: 2px 0 0 $action-color inset
+
+
+	#menus
+		.mostraMenu
+			margin-bottom: $base-spacing
+
+		.nav-final
+			ul.mostraMenu
+				width: 50%
+				border-bottom: solid 2px $action-color
+				display: flex
+				li
+					@include padding($small-spacing / 2 $small-spacing)
+		.nav-admin
+			ul.mostraMenu
+				background-color: $adm-action-color
+				color: $light-gray
+				padding: $base-spacing 0
+
+				li
+					@include padding(null $base-spacing)
+
+	#tabelas
+			ul
+				margin-bottom: $small-spacing
+
+	#forms
+		.radio
+			ul 
+				margin-bottom: $small-spacing
+				clear: both
+
+			.radioStyle
+				padding-bottom: $base-spacing
+				margin-bottom: $small-spacing
+
+	// ---------------------
+	// Colorindo as amostras
+	// ---------------------
+	
+	//fundos
+	#action-color .amostra,
+	#tipografia td.action:after,
+	.listaIcones .amostra#botao
+			background: $action-color
+			
+	#action-hover .amostra,
+	#tipografia td.hover:after,
+	#botoes .user-final .default.hover
+			background: shade($action-color, 20%)
+
+	#adm-action-color .amostra,
+	#tipografia td.adm-action:after,
+	.listaIcones .amostra#botaoAdm
+			background: $adm-action-color
+
+	#adm-action-hover .amostra,
+	#tipografia td.adm-hover:after,
+	#menus .nav-admin li.hover,
+	#botoes .adm .adm-btn.hover
+			background: $adm-action-hover
+
+	#light-gray .amostra,
+	#tipografia td.lGray:after
+			background: $light-gray
+			border: solid 2px $dark-gray
+
+	#medium-gray .amostra
+			background: $medium-gray
+
+	#dark-gray .amostra,
+	#tipografia td.dGray:after
+			background: $dark-gray
+
+	//tipos
+	#menus .nav-final li.hover a,
+	#botoes .user-final .cancel-btn.hover
+		color: shade($action-color, 20%)
+
+	#botoes .adm .adm-cancel-btn.hover
+		color: shade($adm-action-color, 20%)
+
+	.listaIcones .amostra#botao,
+	.listaIcones .amostra#botaoAdm
+		color: $light-gray
+

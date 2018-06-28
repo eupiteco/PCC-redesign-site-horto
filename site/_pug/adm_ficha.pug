@@ -1,0 +1,73 @@
+include layouts/default.pug
+include mixins.pug
+.container-adm#ficha
+	include componentes/adm_aside.pug
+
+	.wrapper
+		h1.adm Editar planta
+		form.camposEdicao
+			.editarIdentificacao
+				h2 Identificação da planta
+				.edtFotos
+					label(for="listaFotos") Fotos
+					#listaFotos
+						.foto.radioinput
+							input#seletor1(type="radio" name="seletorDestaque")
+							label(for="seletor1").img#foto1
+							label.check(for="seletor1")
+						.foto.radioinput
+							input#seletor2(type="radio" name="seletorDestaque")
+							label(for="seletor2").img#foto2
+							label.check
+						button.adm-btn.adicionar
+							+ico-mais
+				.edtNomeCie
+					label(for="textNomeCie") Nome científico
+					input#textNomeCie(type="text")
+				.edtNomePop
+					label(for="textNomePop") Nome popular
+					input#textNomePop(type="text")
+				.edtDescricao
+					label(for="areaDesricao") Descrição botânica
+					textarea(rows="10")#areaDescricao
+				.edtUsos
+					label(for="areaUsos") Usos da planta #[span (separados por vírgula)]
+					textarea(rows="1")#areaUsos
+				.edtAcoes
+					label(for="areaAcoes") Ações Medicinais #[span (separadas por vírgula)]
+					textarea(rows="1")#areaAcoes
+				.edtPartes
+					label(for="textPartes") Partes usadas
+					input#textPartes(type="text")
+				.botoes
+					button.adm-btn(type="button" onclick="window.location.href='ficha.html'") Atualizar
+					button.adm-cancel-btn(type="button" onclick="window.location.href='adm_lista-plantas.html'") Cancelar
+					
+			.editarPessoal
+				h2 Informações para uso pessoal
+				.edtPosologia
+					label(for="areaPosologia") Modo de usar
+					textarea(rows="10")#areaPosologia
+				.edtContraindicacoes
+					label(for="areaContraindicacoes") Contraindicações
+					textarea(rows="10")#areaContraindicacoes
+				.botoes
+					button.adm-btn(type="button" onclick="window.location.href='ficha.html'") Atualizar
+					button.adm-cancel-btn(type="button" onclick="window.location.href='adm_lista-plantas.html'") Cancelar
+			.editarProfissional
+				h2 Informações para uso profissional
+				.edtObsFloripa
+					label(for="areaObsFloripa") Observação clínica em Florianópolis
+					textarea(rows="10")#areaObsFloripa
+				.edtInfosCie
+					label(for="areaInfosCie") Informações científicas
+					textarea(rows="10")#areaInfosCie
+				.edtInteracoes
+					label(for="areaInteracoes") Interações medicamentosas
+					textarea(rows="10")#areaInteracoes
+				.edtReferencias
+					label(for="areaReferencias") Referências
+					textarea(rows="10")#areaReferencias
+				.botoes
+					button.adm-btn(type="button" onclick="window.location.href='ficha.html'") Atualizar
+					button.adm-cancel-btn(type="button" onclick="window.location.href='adm_lista-plantas.html'") Cancelar
